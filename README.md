@@ -27,3 +27,11 @@ python3.12 -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 ```
+
+## Set up frontend
+
+
+
+
+
+
