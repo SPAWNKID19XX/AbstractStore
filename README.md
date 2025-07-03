@@ -31,9 +31,30 @@ venv\Scripts\activate     # Windows
 ## Setup Backend
 
 ## Setup frontend
+Before the start you need to make sure to have node.js and npm package.
+ Use command 
+ 
+    node -v
+    npm -v
+    
+If node.js doesnt installed, you can get it from oficial site
 
+    https://nodejs.org
+    
+ A both libraries are included. 
+ 
+ After installations, don't forget to verify by typing 
+    
+    node -v   # should print something like v18.17.1
+    npm -v    # or npm.cmd -v, should print e.g. 10.2.
 
+Before to start local server install frontend dependency witch storage in package.json. Type
 
+    npm install
 
+ While your terminal position into client folder.
 
+ Start frontend server with command 
 
+    npm run dev
+    
