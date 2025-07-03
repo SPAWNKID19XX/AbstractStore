@@ -76,7 +76,7 @@ To exit psql, type \q and press Enter.
 
 ## Setup frontend
 Before the start you need to make sure to have node.js and npm package.
- Use command 
+Use command 
  
     node -v
     npm -v
@@ -85,9 +85,9 @@ If node.js doesnt installed, you can get it from oficial site
 
     https://nodejs.org
     
- A both libraries are included. 
- 
- After installations, don't forget to verify by typing 
+A both libraries are included. 
+
+After installations, don't forget to verify by typing 
     
     node -v   # should print something like v18.17.1
     npm -v    # or npm.cmd -v, should print e.g. 10.2.
@@ -96,9 +96,16 @@ Before to start local server install frontend dependency witch storage in packag
 
     npm install
 
- While your terminal position into client folder.
+While your terminal position into client folder.
 
- Start frontend server with command 
+Start frontend server with command 
 
     npm run dev
     
+
+## Login Backend
+has been used SimpleJWT library for DRF
+For full documentation click to link https://django-rest-framework-simplejwt.readthedocs.io/en/latest/
+
+
+## Login Frontend
