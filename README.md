@@ -12,15 +12,16 @@
 - **Authentication:** JWT / Token / Session (choose as needed)
 
 ## 📦 Installation
+### Setup Backend
 
 1. Clone the repository:
 
 ```aiignore
 git clone https://github.com/SPAWNKID19XX/AbstractStore.git
-cd abstractstore
+cd abstractstore/server
 ```
 
-2. Create a Local environment:
+2. Create and activate a Local environment:
 
 ```aiignore
 python3.12 -m venv venv
@@ -28,7 +29,50 @@ source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 ```
 
-## Setup Backend
+3. Install dependencies from requirements.txt:
+
+    Navigate to the server folder, where the requirements.txt file containing all necessary dependencies is located.
+
+    To install the dependencies, run the following command:
+```aiignore
+pip install -r requirements.txt
+```
+4a. Installing PostgresSQL
+   
+### Windows
+
+1-Download the PostgresSQL installer from the official website:
+https://www.postgresql.org/download/windows/
+
+2-Run the installer and follow the setup steps:
+
+- Choose your installation directory
+- Set a password for the postgres user
+- Select the default port (5432)
+- Complete the installation
+
+3—After installation, open pgAdmin or use the psql command-line tool to connect to your database.
+
+
+### Linux
+    # Update package list
+    sudo apt update
+    
+    # Install PostgreSQL
+    sudo apt install postgresql postgresql-contrib
+    
+    # Start PostgreSQL service
+    sudo systemctl start postgresql
+    
+    # Enable PostgreSQL to start on boot
+    sudo systemctl enable postgresql
+
+To switch to the default PostgreSQL user and access the database:
+
+    sudo -i -u postgres
+    psql
+
+To exit psql, type \q and press Enter.
 
 ## Setup frontend
 
