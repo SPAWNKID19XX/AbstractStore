@@ -28,7 +28,9 @@ source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 ```
 
-## Set up frontend
+## Setup Backend
+
+## Setup frontend
 
 
 
