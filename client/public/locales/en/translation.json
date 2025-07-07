@@ -1,0 +1,1283 @@
+{
+  "stotop": "Scroll to top",
+  "navbar": {
+    "links": {
+      "1": "About Us",
+      "2": "Services",
+      "3": {
+        "title": "Products",
+        "subtitle": [
+          "Hair Care",
+          "Face & Body Care",
+          "Health & Balance"
+        ]
+      },
+      "4": "Contact"
+    }
+  },
+  "mb": {
+    "title": "Welcome to Cuddly Breeze Lda",
+    "subtitle": "Create your own cosmetics brand – we’ll take care of the rest",
+    "p": [
+      "Natural formulas, personalized approach, and the ability to launch products under your label. Unique formulations or ready-made solutions – it’s your choice!",
+      "Your brand. Minimal effort. Maximum impact."
+    ]
+  },
+  "about_us": {
+    "links": [
+      "Laboratory",
+      "Products"
+    ],
+    "title": "About Us",
+    "p": [
+      "We are a team of professionals working in the beauty and wellness industry, developing modern products for the cosmetic and wellness market. Our approach combines deep expertise, cutting-edge scientific developments, and European quality standards.",
+      "We believe that beauty starts with health, and a truly great product must be effective, safe, ethical, and thoughtfully designed.",
+      "Our company specializes in a full-cycle approach: we don’t just supply products — we create solutions. From cosmetics to dietary supplements and wellness formulations, we cover the entire journey from idea to market.",
+      "We are more than consultants or suppliers — we are strategic partners helping you build modern, effective, and distinctive beauty and health products."
+    ],
+    "subtitle": [
+      {
+        "title": "We offer",
+        "lt": {
+          "1": [
+            "Professional",
+            "consultations",
+            "in the fields of beauty, health, and product development"
+          ],
+          "2": [
+            "Private label",
+            "product creation — from concept to final solution"
+          ],
+          "3": [
+            "Manufacturing partnerships in",
+            "Italy, Spain, and other European countries"
+          ],
+          "4": [
+            "Market-adapted formulas tailored to your audience"
+          ],
+          "5": [
+            "Full-cycle support from R&D to packaging"
+          ]
+        }
+      },
+      {
+        "title": "We work with clients who value",
+        "lt": [
+          "Individual approach",
+          "Honesty and transparency",
+          "Premium product quality",
+          "Innovation and flexibility"
+        ]
+      }
+    ]
+  },
+  "prod_title": "Our products",
+  "serv_title": "Our services",
+  "products": [
+    {
+      "id": 1,
+      "name": "Hand Cream",
+      "subtitle": "💧 Gentle daily care",
+      "description": "A rich yet lightweight hand cream that absorbs quickly without leaving a greasy residue. Enriched with natural oils, botanical extracts, and moisturizing agents to deeply nourish, restore, and protect your skin.",
+      "vantage": [
+        "Restores dry and cracked skin",
+        "Softens cuticles",
+        "Delicate, neutral scent",
+        "Ideal for daily use",
+        "Free from parabens, silicones, and artificial dyes"
+      ],
+      "add_info": "Perfect for all skin types — even sensitive."
+    },
+    {
+      "id": 2,
+      "name": "Sunscreen",
+      "subtitle": "🧴 Invisible daily protection",
+      "description": "This lightweight, fast-absorbing sunscreen leaves no white cast while protecting your skin from harmful UVA/UVB rays. Enriched with natural soothing and hydrating ingredients.",
+      "vantage": [
+        "SPF 30 / SPF 50",
+        "Fragrance-free or with a soft natural scent",
+        "Non-comedogenic, suitable for all skin types",
+        "Makeup-friendly",
+        "Free from oxybenzone, parabens, alcohol"
+      ],
+      "add_info": "Perfect for all skin types — even sensitive."
+    },
+    {
+      "id": 3,
+      "name": "Facial / Body Oil",
+      "subtitle": "💧 Nourish. Balance. Glow.",
+      "description": "A lightweight natural oil that deeply hydrates, softens, and restores the skin’s natural barrier. Ideal for face, neck, décolletage, or body. Perfect for massage or daily care.",
+      "vantage": [
+        "100% natural ingredients",
+        "Non-greasy finish",
+        "Calms dry or sensitive skin",
+        "Can be blended into creams or serums",
+        "Dropper bottle for precise use"
+      ],
+      "add_info": "Radiant skin, naturally."
+    },
+    {
+      "id": 4,
+      "name": "Micellar Water",
+      "subtitle": "💧 Cleanse. Refresh. Balance",
+      "description": "A gentle micellar water designed for daily cleansing. Removes makeup, impurities, and excess oil without rinsing. Safe for all skin types, even sensitive.",
+      "vantage": [
+        "Alcohol-free and fragrance-free",
+        "Suitable for eye area",
+        "Balances skin’s pH",
+        "Refreshes without drying",
+        "Daily skincare essential"
+      ],
+      "add_info": "Clean skin, naturally."
+    },
+    {
+      "id": 5,
+      "name": "Facial Serum",
+      "subtitle": "💧 Hydrate. Repair. Glow.",
+      "description": "A lightweight facial serum formulated for deep hydration and skin renewal. Boosts skin texture and radiance while absorbing quickly. Ideal for daily use before moisturizer.",
+      "vantage": [
+        "Infused with hyaluronic acid, vitamins, or peptides",
+        "Non-sticky, fast-absorbing texture",
+        "Suitable for all skin types",
+        "Free from parabens and silicones",
+        "Improves elasticity and glow"
+      ],
+      "add_info": "🌿 Beauty starts deep within."
+    },
+    {
+      "id": 6,
+      "name": "Face Cream",
+      "subtitle": "💧 Nourish. Comfort. Balance.",
+      "description": "A gentle daily moisturizer that hydrates, softens, and protects the skin. Designed for all skin types, including sensitive. Leaves the skin smooth, balanced, and radiant.",
+      "vantage": [
+        "Enriched with natural oils and hydrating agents",
+        "Non-comedogenic",
+        "Suitable for day and night use",
+        "Fragrance-free minimalist formula"
+      ],
+      "add_info": "🌿 Skincare rooted in nature."
+    },
+    {
+      "id": 7,
+      "name": "Shampoo",
+      "subtitle": "💧 Cleanse. Refresh. Revive.",
+      "description": "A gentle daily cleanser that purifies the scalp and hair without stripping natural oils. Suitable for all hair types, including sensitive scalps. Leaves hair clean, soft, and full of vitality.",
+      "vantage": [
+        "Infused with botanical extracts and mild surfactants",
+        "Sulfate-free",
+        "Safe for color-treated hair",
+        "Fragrance-free minimalist formula"
+      ],
+      "add_info": "🌿 Haircare rooted in nature."
+    },
+    {
+      "id": 8,
+      "name": "Conditioner",
+      "subtitle": "💧 Moisturize. Detangle. Protect.",
+      "description": "A lightweight daily conditioner that restores softness, smoothness, and manageability without weighing down the hair. Ideal for all hair types. Leaves strands silky, hydrated, and easy to comb.",
+      "vantage": [
+        "Enriched with nourishing oils and botanical extracts",
+        "Silicone-free",
+        "Safe for color-treated hair",
+        "Fragrance-free minimalist formula"
+      ],
+      "add_info": "🌿 Haircare rooted in nature."
+    },
+    {
+      "id": 9,
+      "name": "Hair Mask",
+      "subtitle": "💧 Repair. Strengthen. Nourish.",
+      "description": "A rich weekly treatment that deeply restores damaged, dry, or overprocessed hair. Leaves hair resilient, shiny, and visibly healthier from root to tip.",
+      "vantage": [
+        "Infused with plant-based proteins and natural oils",
+        "Silicone- and paraben-free",
+        "Ideal for dry, brittle, or chemically treated hair",
+        "Fragrance-free minimalist formula"
+      ],
+      "add_info": "🌿 Haircare rooted in nature."
+    },
+    {
+      "id": 10,
+      "name": "Hair Capsules",
+      "subtitle": "💧 Revitalize. Strengthen. Shine.",
+      "description": "A concentrated leave-in treatment in capsule form that delivers essential nutrients directly to the hair and scalp. Restores vitality, smoothness, and radiant shine.",
+      "vantage": [
+        "Packed with vitamins and botanical oils",
+        "Non-greasy, fast-absorbing formula",
+        "Ideal for damaged or thinning hair",
+        "Fragrance-free minimalist formula"
+      ],
+      "add_info": "🌿 Haircare rooted in nature."
+    },
+    {
+      "id": 11,
+      "name": "HAIR SCRUB",
+      "subtitle": "💧 Deep scalp cleansing for healthy hair growth.",
+      "description": "An innovative scalp scrub in a jar format, designed for gentle yet effective cleansing. The formula with natural exfoliants softly removes product buildup, excess sebum, and dead skin cells, stimulating circulation and promoting the growth of strong, healthy hair.",
+      "vantage": [
+        "Suitable for all scalp types",
+        "Free from sulfates, parabens, and silicones",
+        "Can be used 1–2 times per week",
+        "Ideal as a preparation before serums"
+      ],
+      "ingr": [
+        "Natural exfoliating particles",
+        "Moisturizing oils",
+        "Plant extracts to soothe the scalp"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "HAIR SERUM",
+      "subtitle": "💧 Intensive nourishment and protection for healthy, shiny hair",
+      "description": "A hair serum in a dropper bottle, designed for deep restoration and care. Its lightweight texture absorbs quickly without weighing down the hair, leaving it shiny, soft, and strong. Active ingredients protect against heat and environmental damage, helping prevent breakage and split ends.",
+      "vantage": [
+        "Suitable for all hair types",
+        "Ideal for daily use",
+        "Free from sulfates, parabens, alcohol, and silicones",
+        "Restores hair structure from within"
+      ],
+      "ingr": [
+        "Argan and coconut oils",
+        "Vitamin complex A, E, F",
+        "Plant extracts for nourishment and protection"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Vitamins Overview",
+      "description": {
+        "fat_soluble_vitamins": {
+          "title": "Fat-Soluble Vitamins",
+          "description": "Stored in body fat and absorbed with dietary fats.",
+          "vitamins": {
+            "A": "Vision, skin, immunity",
+            "D": "Calcium absorption, bone strength",
+            "E": "Antioxidant, cell protection",
+            "K": "Blood clotting, bone health"
+          },
+          "sources": {
+            "title": "Sources",
+            "A": "Carrots, liver, eggs",
+            "D": "Sunlight, fish, egg yolk",
+            "E": "Nuts, oils, spinach",
+            "K": "Leafy greens, broccoli, gut flora"
+          },
+          "deficiency_effects": {
+            "title": "Deficiency Effects",
+            "A": "Night blindness, dry skin",
+            "D": "Rickets, osteomalacia",
+            "E": "Muscle weakness",
+            "K": "Bleeding issues"
+          }
+        },
+        "water_soluble_vitamins_b_complex": {
+          "title": "Water-Soluble Vitamins – B-complex",
+          "description": "Support energy metabolism and nervous system.",
+          "vitamins_functions": {
+            "title": "Vitamins & Functions:",
+            "B1": "Nerves, carbs metabolism",
+            "B2": "Skin, energy production",
+            "B3": "Cellular respiration",
+            "B5": "Hormones, energy",
+            "B6": "Protein metabolism, mood balance",
+            "B7": "Skin, hair, fat metabolism",
+            "B9": "DNA, fetal development",
+            "B12": "Nerves, red blood cells"
+          },
+          "sources_title": "Sources",
+          "sources": "Grains, meat, milk, eggs, leafy greens, bananas, fish",
+          "deficiency_symptoms_title": "Deficiency Symptoms",
+          "deficiency_symptoms": [
+            "Beriberi (B1), cracked lips (B2), pellagra (B3)",
+            "Fatigue, irritability (B5), anemia (B6/B9/B12)",
+            "Mood disorders, neural defects, brittle hair (B7)"
+          ]
+        },
+        "water_soluble_vitamin_c": {
+          "deficiency_title": "Deficiency",
+          "title": "Water-Soluble Vitamin – Vitamin C",
+          "description": "Powerful antioxidant and immune booster.",
+          "function": [
+            "Supports immunity",
+            "Promotes collagen production",
+            "Helps absorb iron",
+            "Antioxidant protection"
+          ],
+          "sources": "Citrus fruits, berries, bell peppers",
+          "deficiency": "Scurvy, weakness, bleeding gums"
+        },
+        "why_vitamins_matter": {
+          "title": "Why Vitamins Matter",
+          "points": [
+            "Support growth and development",
+            "Regulate metabolism",
+            "Boost immunity and brain function",
+            "Prevent chronic diseases"
+          ]
+        },
+        "when_to_watch_vitamin_levels": {
+          "title": "When to Watch Vitamin Levels",
+          "points": [
+            "Fatigue, hair loss, poor concentration",
+            "Frequent colds or infections",
+            "Digestive or bone issues",
+            "Pregnancy and aging"
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Supplements",
+      "title": "What Are Supplements?",
+      "description": "Supplements (dietary supplements, nutraceuticals) are products that complement the diet and provide essential nutrients.",
+      "include_title": "Include:",
+      "include_list": [
+        "Vitamins, minerals",
+        "Amino acids",
+        "Fatty acids (e.g. Omega-3)",
+        "Enzymes",
+        "Plant extracts"
+      ],
+      "warning": "⚠️ Supplements do not replace food, but help fill nutritional gaps or support specific body functions.",
+      "functions_title": "🎯 Main Functions of Supplements:",
+      "functions_list": [
+        "Vitamins & Minerals – Immunity, metabolism, nerves",
+        "Omega-3 – Brain, heart, anti-inflammatory",
+        "Collagen – Skin, hair, nails, joints",
+        "Probiotics & Prebiotics – Gut microbiota balance",
+        "Protein – Muscle maintenance & recovery",
+        "Amino Acids – Energy, muscles, immunity",
+        "Enzymes – Digestive support",
+        "Adaptogens – Stress & fatigue management",
+        "Magnesium – Sleep, cramp relief, anxiety",
+        "Calcium + Vitamin D – Bones & heart health",
+        "Iron – Anemia, chronic fatigue",
+        "Zinc & Selenium – Antioxidants, immune support"
+      ],
+      "when_title": "🕒 When to Take Supplements:",
+      "when_list": [
+        "Nutrient deficiency (confirmed by lab tests)",
+        "Stress, illness, or physical strain",
+        "Restrictive diets or poor nutrition",
+        "Beauty support or general well-being"
+      ],
+      "reminder_title": "📌 Reminder:",
+      "reminder": "Supplements are not a substitute for a healthy lifestyle, but a useful addition to support overall health."
+    },
+    {
+      "id": 15,
+      "name": "Minerals",
+      "title": "🧂 What are minerals?",
+      "description": "Minerals are inorganic substances needed by the body in small amounts to maintain health, growth, development, and normal organ function.",
+      "functions_title": "⚙️ Functions of minerals:",
+      "functions_list": [
+        "Bone tissue formation (Ca, P, Mg)",
+        "Nerve impulse conduction (Na, K, Ca)",
+        "Hormone production (I, Zn)",
+        "Metabolism regulation (Cr, Se)",
+        "Immune support (Zn, Fe, Se)",
+        "Antioxidant protection (Se, Cu, Zn)"
+      ],
+      "why_title": "💊 Why take mineral supplements?",
+      "why_list": [
+        "Unbalanced diet",
+        "Vegan or restrictive diet",
+        "Pregnancy or breastfeeding",
+        "Chronic diseases (anemia, osteoporosis)",
+        "Intensive physical activity",
+        "Poor absorption due to gastrointestinal disorders"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Biotics",
+      "title": "What Are Biotics and How Do They Help the Body?",
+      "intro": "<strong>Biotics</strong> is a general term for groups of substances that support the human microbiome and gut health. They include:",
+      "types_list": [
+        "Probiotics",
+        "Prebiotics",
+        "Postbiotics",
+        "Synbiotics"
+      ],
+      "sections": {
+        "probiotics": {
+          "title": "🔬 1. Probiotics",
+          "description": "Live microorganisms (bacteria or yeast) that, when consumed in sufficient amounts, benefit health.",
+          "common_strains_title": "Common strains:",
+          "common_strains": [
+            "Lactobacillus",
+            "Bifidobacterium",
+            "Saccharomyces boulardii"
+          ],
+          "benefits_title": "Benefits:",
+          "benefits": [
+            "Restore gut flora after antibiotics",
+            "Relieve IBS symptoms",
+            "Support the immune system",
+            "Ease diarrhea or constipation",
+            "Improve nutrient absorption"
+          ]
+        },
+        "prebiotics": {
+          "title": "🌱 2. Prebiotics",
+          "description": "Non-digestible dietary fibers that serve as \"food\" for beneficial gut bacteria.",
+          "main_types_title": "Main types:",
+          "main_types": [
+            "Inulin",
+            "Fructooligosaccharides (FOS)",
+            "Galactooligosaccharides (GOS)"
+          ],
+          "benefits_title": "Benefits:",
+          "benefits": [
+            "Promote the growth of healthy bacteria",
+            "Improve digestion",
+            "Normalize bowel movements",
+            "Help regulate cholesterol and glucose"
+          ]
+        },
+        "postbiotics": {
+          "title": "🧬 3. Postbiotics",
+          "description": "Metabolic byproducts of probiotics, such as short-chain fatty acids, peptides, and enzymes.",
+          "benefits_title": "Benefits:",
+          "benefits": [
+            "Anti-inflammatory effects",
+            "Support gut barrier function",
+            "Strengthen immunity",
+            "Fight harmful microbes"
+          ]
+        },
+        "synbiotics": {
+          "title": "🔗 4. Synbiotics",
+          "description": "A combination of probiotics and prebiotics that work synergistically.",
+          "benefits_title": "Benefits:",
+          "benefits": [
+            "Boost probiotic survival",
+            "Maximize gut microbiome benefits",
+            "Improve digestion and nutrient absorption"
+          ]
+        }
+      },
+      "other_benefits_title": "🧠 Other Benefits of Biotics:",
+      "other_benefits": [
+        "Gut-brain axis: microbiome affects mood, memory, anxiety",
+        "Skin health: helpful for acne, eczema, dermatitis",
+        "Weight management: supports fat and carb metabolism"
+      ],
+      "when_to_use_title": "🕒 When to Use Biotics:",
+      "when_to_use": [
+        "After antibiotics",
+        "Digestive issues",
+        "Chronic stress",
+        "Immune system support"
+      ]
+    }
+  ],
+  "services": {
+    "title": "Our Services",
+    "lt": [
+      {
+        "title": "Comprehensive Beauty, Health & Care Service",
+        "subtitle": "What We Offer",
+        "p": [
+          "We are your one-stop destination for",
+          "top-quality facial, body, and haircare products",
+          "as well as ",
+          "certified nutritional supplements, vitamins, and dietary products",
+          "from trusted",
+          "European suppliers",
+          "We collaborate only with verified brands to ensure safety, efficiency, and premium quality."
+        ],
+        "pc": {
+          "title": "Product categories",
+          "lt": [
+            [
+              "Facial care:",
+              "creams, serums, masks, cleansers, toners"
+            ],
+            [
+              "Body care:",
+              "lotions, scrubs, oils, shower gels"
+            ],
+            [
+              "Haircare:",
+              "shampoos, conditioners, masks, sprays"
+            ],
+            [
+              "Inner health:",
+              "vitamins, probiotics, omega-3, supplements for beauty, immunity, and energy"
+            ],
+            [
+              "Personalized care:",
+              "custom selection for skin type, hair condition, or health needs"
+            ]
+          ]
+        },
+        "logist": {
+          "title": "Seamless Logistics",
+          "p": [
+            "From order placement to doorstep delivery,",
+            "we manage every step",
+            "for you."
+          ],
+          "subtitle": "We handle:",
+          "lt": [
+            "Direct sourcing from certified suppliers",
+            "Order consolidation from various EU countries",
+            "Customs clearance and legal documentation",
+            "Reliable international shipping (ground, air, couriers)",
+            "Real-time tracking throughout the process",
+            "Secure packaging to protect product quality"
+          ]
+        },
+        "wwe": {
+          "title": "Why Choose Us?",
+          "lt": [
+            "Wide selection of top European brands",
+            "Personalized service for every customer",
+            "Certified, authentic, and lab-tested products",
+            "Turnkey logistics — we handle everything",
+            "100% genuine products — no counterfeits"
+          ]
+        },
+        "ls": {
+          "title": "You Choose – We Do the Rest",
+          "p": [
+            "No need to research, negotiate, or arrange shipping.",
+            "You select what you need — we handle everything else,",
+            "from the factory floor to your home."
+          ]
+        }
+      },
+      {
+        "title": "Custom Manufacturing & Private Label",
+        "subtitle": "Your Formula — Our Production",
+        "p": [
+          "We offer a unique opportunity to manufacture",
+          "any skincare, body, hair or supplement product",
+          "based on",
+          "your custom formula",
+          "or using",
+          "ready-made certified European formulations",
+          "available in our catalog.",
+          "Our labs are equipped with modern technology, and our expert team ensures safe and effective product manufacturing under your brand."
+        ],
+        "lable": {
+          "title": "Private Label Services",
+          "p": [
+            "Want to sell products under your own name? We provide a full-service solution for applying",
+            "your logo, certificate, and brand identity:"
+          ],
+          "lt": [
+            [
+              "Your",
+              "logo",
+              "on the label"
+            ],
+            [
+              "Custom",
+              "packaging design"
+            ],
+            [
+              "Inclusion of",
+              "your certificate of quality"
+            ],
+            [
+              "Packaging in",
+              "your brand color palette"
+            ],
+            "Branding and marketing support"
+          ]
+        },
+        "collaboration": {
+          "title": "Flexible Collaboration Format",
+          "p": "We work with:",
+          "lt": [
+            "Expanding skincare & wellness brands",
+            "New businesses launching their first product",
+            "Pharmacies, salons, clinics",
+            "E-commerce sellers and distributors"
+          ]
+        },
+        "manufact": {
+          "title": "Turnkey Manufacturing",
+          "p": [
+            "We handle the",
+            "entire process — from concept to delivery:"
+          ],
+          "lt": [
+            "Custom formula development or selection from our formulas",
+            "Manufacturing under EU standards",
+            "Testing & quality control",
+            "Filling, labeling & packaging",
+            "Logistics and delivery to you or your clients"
+          ]
+        },
+        "guarantees": {
+          "title": "Guarantees",
+          "lt": [
+            "GMP/ISO-compliant production",
+            "Safe, verified ingredients",
+            "Small or large batch options",
+            "Confidentiality of formula and branding",
+            "Full expert support"
+          ],
+          "subtitle": "Your idea — our expertise. Let’s create a product that carries your name."
+        }
+      }
+    ]
+  },
+  "ftr": {
+    "info_coockies": {
+      "p": "We use cookies to improve the site's functionality. By continuing to use the site, you agree to the use of cookies.",
+      "btn": "Accept"
+    },
+    "slogan": "CadlyBreeze — your breeze of freshness, beauty, and strength.",
+    "contact": {
+      "title": "Contacts"
+    },
+    "docs": {
+      "title": "Documents",
+      "lt": [
+        "Privacy Policy",
+        "Cookie Policy",
+        "Terms Conditions"
+      ]
+    },
+    "frm": {
+      "title": "Contact form",
+      "p": "Please fill out the form below to get in touch with our team",
+      "fields": {
+        "name": "Name",
+        "phone": "Phone",
+        "subject": {
+          "title": "Subject",
+          "lt": [
+            "Select a subject",
+            "General Inquiry",
+            "Technical Support",
+            "Feedback",
+            "Information"
+          ]
+        },
+        "msg": "Message",
+        "axcept": [
+          "I have read and accept the",
+          "Terms Conditions"
+        ]
+      },
+      "btn": "Submit",
+      "success_msg": "Email has been sent!",
+      "error_msg": "An error occurred while sending the email!\""
+    },
+    "bf": "All rights reserved."
+  },
+  "pc": {
+    "top_info": {
+      "title": "Information about how we use cookies to enhance your experience on our website.",
+      "last_update": "Last updated: January 2025",
+      "version": "Version"
+    },
+    "lt": [
+      {
+        "title": "What Are Cookies?",
+        "lt": [
+          "Cookies are small text files that are placed on your device (computer, tablet, or mobile phone) when you visit our website. These files allow the website to recognize your device and store some information about your preferences or past actions.",
+          "Cookies are widely used to make websites work more efficiently, as well as to provide information to the website owners about how users interact with the site."
+        ]
+      },
+      {
+        "title": "How We Use Cookies",
+        "p": "Santiclinic uses cookies for various purposes, always aiming to enhance your experience on our website and provide personalized services.",
+        "sub": {
+          "1": {
+            "title": "Website Functionality",
+            "lt": [
+              "Remember your language preferences",
+              "Keep your session active during browsing",
+              "Store form information for your convenience",
+              "Customize content presentation"
+            ]
+          },
+          "2": {
+            "title": "Analysis and Improvement",
+            "lt": [
+              "Analyze website traffic and usage patterns",
+              "Identify most visited pages and areas of interest",
+              "Improve website structure and content",
+              "Optimize user experience"
+            ]
+          },
+          "3": {
+            "title": "Marketing and Communication",
+            "lt": [
+              "Display ads relevant to your interests",
+              "Measure the effectiveness of our campaigns",
+              "Personalize offers and communications",
+              "Retargeting on other platforms"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Types of Cookies",
+        "p": "We use different types of cookies, each with specific purposes.",
+        "lt": [
+          {
+            "title": "Necessary Cookies",
+            "inf": "Always Active",
+            "p": "These cookies are essential for the basic functioning of the website. Without them, certain features would not work properly.",
+            "lt": [
+              "Session management",
+              "Website security",
+              "Basic navigation features",
+              "Accessibility preferences"
+            ]
+          },
+          {
+            "title": "Analytics Cookies",
+            "inf": "Optional",
+            "p": "Help us understand how visitors interact with the website, providing information about pages visited, time spent, and other metrics.",
+            "lt": [
+              "Google Analytics",
+              "Heatmaps and session recordings",
+              "Performance analysis",
+              "Usage statistics"
+            ]
+          },
+          {
+            "title": "Marketing Cookies",
+            "inf": "Optional",
+            "p": "Used to display relevant advertising and measure the effectiveness of our marketing campaigns.",
+            "lt": [
+              "Facebook Pixel",
+              "Google Ads",
+              "Remarketing and retargeting",
+              "Personalized advertising"
+            ]
+          },
+          {
+            "title": "Functional Cookies",
+            "inf": "Optional",
+            "p": "Enable advanced features like live chat, improved forms, and other personalized features.",
+            "lt": [
+              "Live chat",
+              "Smart forms",
+              "Content personalization",
+              "User preferences"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Specific Cookies Used",
+        "p": "The following table details the specific cookies used on our website.",
+        "tbl": {
+          "hdr": {
+            "name": "Name",
+            "type": "Type",
+            "duration": "Duration",
+            "obj": "Purpose"
+          },
+          "type": {
+            "necessary": "Necessary",
+            "analize": "Analytics",
+            "marketing": "Marketing"
+          },
+          "duration": {
+            "year": "Year",
+            "section": "Session",
+            "months": "Months"
+          },
+          "obj": [
+            "Stores your cookie preferences",
+            "Identifies your session on the website",
+            "Google Analytics – user identification",
+            "Google Analytics – session data",
+            "Facebook Pixel – conversion tracking",
+            "Google Ads – conversion attribution"
+          ]
+        }
+      },
+      {
+        "title": "Cookie Management",
+        "sub": {
+          "1": {
+            "title": "Control Your Preferences",
+            "p": "You can manage your cookie preferences at any time through our cookie banner or by clicking the button below:",
+            "btn": "Manage Cookie Preferences"
+          },
+          "2": {
+            "title": "Browser Settings",
+            "p": "Most browsers allow you to control cookies through settings. You can configure your browser to:",
+            "lt": [
+              "Block all cookies",
+              "Accept only first-party cookies",
+              "Delete cookies when closing the browser",
+              "Notify before accepting cookies"
+            ]
+          },
+          "3": {
+            "title": "Settings Links"
+          }
+        }
+      },
+      {
+        "title": "Third-Party Cookies",
+        "p": "Some cookies on our website are set by third-party services. These services have their own privacy policies:",
+        "lt": [
+          {
+            "title": "Google Analytics",
+            "p": "Used to analyze website traffic and user behavior.",
+            "link": "View Privacy Policy"
+          },
+          {
+            "title": "Facebook Pixel",
+            "p": "Used for targeted advertising and conversion tracking.",
+            "link": "View Privacy Policy"
+          },
+          {
+            "title": "Google Ads",
+            "p": "Used for advertising campaigns and remarketing.",
+            "link": "View Privacy Policy"
+          }
+        ]
+      },
+      {
+        "title": "Impact of Disabling",
+        "p": "If you choose to disable cookies, some website features may be affected:",
+        "lt": [
+          {
+            "title": "Necessary Cookies",
+            "p": "Disabling may cause functionality issues, session loss, and navigation difficulties."
+          },
+          {
+            "title": "Analytics Cookies",
+            "p": "Disabling does not affect functionality, but limits our ability to improve the website."
+          },
+          {
+            "title": "Marketing Cookies",
+            "p": "Disabling means you may see less relevant ads based on your interests."
+          }
+        ]
+      },
+      {
+        "title": "Policy Updates",
+        "lt": [
+          "Santiclinic may update this Cookie Policy periodically to reflect changes in our services or applicable legislation.",
+          "When we make significant changes, we will notify you via our website and, if applicable, by email. The date of the last update is always indicated at the top of this page.",
+          "We recommend reviewing this policy regularly to stay informed about how we use cookies."
+        ]
+      },
+      {
+        "title": "Contact",
+        "p": "If you have any questions about this Cookie Policy or about how we use cookies, you can contact us via:",
+        "lt": [
+          "Email",
+          "Phone",
+          "Address"
+        ],
+        "quest": [
+          "For general questions about privacy and data protection, please refer to our Privacy Policy.",
+          "Privacy Policy"
+        ]
+      }
+    ],
+    "bk_btn": "Back to Website",
+    "rel_docs": "Related Documents",
+    "priv_pol": "Privacy Policy"
+  },
+  "tc": {
+    "btn_back": "Back to Website",
+    "rel_doc": "Related documents:",
+    "pp": "Privacy Policy",
+    "top_info": {
+      "p": "General terms and conditions for the use of Santiclinic's services.",
+      "last_update": "Last update: January 2025",
+      "version": "Version"
+    },
+    "lt": {
+      "1": {
+        "title": "General Information",
+        "p": [
+          "These Terms and Conditions govern the use of Santiclinic's website and the provision of our cosmetic microsurgery services. By accessing our website or using our services, you fully accept these terms.",
+          "Santiclinic reserves the right to amend these terms at any time, with such changes becoming effective upon publication on the website."
+        ]
+      },
+      "2": {
+        "title": "Entity Identification",
+        "words": {
+          "name": "Company Name",
+          "adress": "Address",
+          "phone": "Phone"
+        }
+      },
+      "3": {
+        "title": "Services Provided",
+        "p": "Santiclinic offers specialized cosmetic microsurgery services, including",
+        "3.1": {
+          "title": "Available Treatments",
+          "lt": [
+            "Eyebrow micro-lifting",
+            "Upper and lower micro-blepharoplasty",
+            "Deep plane micro-lifting",
+            "Mini micro-lifting",
+            "Eyebrow micro-implant (exclusive technique)",
+            "Micro-otoplasty",
+            "Micro-lobuloplasty",
+            "Cosmetic microsurgery consultations"
+          ]
+        },
+        "3.2": {
+          "title": "Consultations",
+          "p": "All treatments are preceded by a mandatory medical consultation to assess the appropriateness of the procedure and clarify any doubts."
+        }
+      },
+      "4": {
+        "title": "Website Use",
+        "4.1": {
+          "title": "Access Conditions",
+          "p": "Access to the website is free of charge, but some services may require completing forms or providing personal data."
+        },
+        "4.2": {
+          "title": "Prohibited Uses",
+          "p": "The following are strictly prohibited:",
+          "lt": [
+            "Using the website for illegal or unauthorized purposes",
+            "Transmitting viruses or malicious code",
+            "Attempting to access restricted areas of the system",
+            "Reproducing, distributing, or modifying content without authorization",
+            "Interfering with the normal functioning of the website"
+          ]
+        },
+        "4.3": {
+          "title": "Intellectual Property",
+          "p": "All website content, including texts, images, logos, and design, is the property of Santiclinic and is protected by copyright laws."
+        }
+      },
+      "5": {
+        "title": "Appointments and Cancellations",
+        "5.1": {
+          "title": "Booking Consultations",
+          "p": "Consultations can be booked through the website, by phone, or via WhatsApp. Confirmation will be sent by email or SMS."
+        },
+        "5.2": {
+          "title": "Cancellation Policy",
+          "lt": [
+            "Cancellations must be communicated at least 24 hours in advance",
+            "Late cancellations may be subject to fees",
+            "No-shows without justification may incur a consultation fee",
+            "Rescheduling is allowed based on availability"
+          ]
+        },
+        "5.3": {
+          "title": "Delays",
+          "p": "If you are more than 15 minutes late, the consultation may be rescheduled to another available time."
+        }
+      },
+      "6": {
+        "title": "Commercial Terms",
+        "subtitle": "Pricing and Payments",
+        "6.1": [
+          "Prices are listed in euros and include VAT",
+          "Prices may change without prior notice",
+          "Payment can be made by cash, card, or bank transfer",
+          "Some treatments may require advance payment"
+        ],
+        "6.2": {
+          "title": "Quotes",
+          "p": "All quotes are valid for 30 days and are subject to confirmation after medical consultation."
+        },
+        "6.3": {
+          "title": "Guarantees",
+          "p": "Santiclinic guarantees the quality of the services provided in accordance with good medical practices, but does not guarantee specific results."
+        }
+      },
+      "7": {
+        "title": "Responsibilities and Limitations",
+        "7.1": {
+          "title": "Santiclinic’s Responsibility",
+          "p": "Santiclinic is committed to providing quality services, but its responsibility is limited to direct and verifiable damages."
+        },
+        "7.2": {
+          "title": "Client’s Responsibility",
+          "lt": [
+            "Provide truthful and complete medical information",
+            "Follow pre- and post-operative instructions",
+            "Report any changes in health status",
+            "Meet payment obligations"
+          ]
+        },
+        "7.3": {
+          "title": "Limitations",
+          "p": "Santiclinic is not responsible for results dependent on factors beyond its control, such as individual healing or compliance with medical recommendations."
+        }
+      },
+      "8": {
+        "title": {
+          "title": "Data Protection",
+          "p": [
+            "The processing of your personal data is governed by our",
+            "Privacy Policy",
+            "which forms an integral part of these terms and conditions"
+          ]
+        },
+        "8.1": {
+          "title": "Purposes",
+          "lt": [
+            "Provision of medical services",
+            "Management of the commercial relationship",
+            "Compliance with legal obligations",
+            "Direct marketing (with consent)"
+          ]
+        },
+        "8.2": {
+          "title": "Data Subject Rights",
+          "p": "You may exercise your rights to access, rectify, delete, and other rights under the GDPR by contacting us through the channels provided in the Privacy Policy."
+        }
+      },
+      "9": {
+        "title": "Dispute Resolution",
+        "9.1": {
+          "title": "Complaints",
+          "p": "Complaints must first be addressed to Santiclinic using the contact details provided on the website."
+        },
+        "9.2": {
+          "title": "Mediation",
+          "p": "In the event of a dispute, the parties agree to attempt mediation before resorting to the courts."
+        },
+        "9.3": {
+          "title": "Applicable Law",
+          "p": "These terms are governed by Portuguese law, with jurisdiction belonging to the courts of the district where Santiclinic is headquartered."
+        }
+      },
+      "10": {
+        "title": "Final Provisions",
+        "10.1": {
+          "title": "Amendments",
+          "p": "Santiclinic reserves the right to change these terms at any time, communicating the changes via the website."
+        },
+        "10.2": {
+          "title": "Validity",
+          "p": "If any provision of these terms is deemed invalid, the remaining provisions shall remain in full force."
+        },
+        "10.3": {
+          "title": "Contacts",
+          "p": "For questions related to these terms and conditions, you can contact us through:"
+        }
+      }
+    }
+  },
+  "pp": {
+    "btn_back": "Back to Website",
+    "rel_doc": "Related Documents:",
+    "pc": "Cookie Policy",
+    "top_info": "Santiclinic is committed to protecting your privacy and personal data.",
+    "last_update": "Last updated: January 2025",
+    "version": "Version",
+    "lt": {
+      "1": {
+        "title": "General Information",
+        "p": [
+          "This Privacy Policy outlines how Santiclinic collects, uses, stores, and protects users' personal information from our website and cosmetic microsurgery services.",
+          "This policy applies to all personal data collected through our website, contact forms, in-person consultations, and any other interactions with Santiclinic."
+        ]
+      },
+      "2": {
+        "title": "Personal Data Collected",
+        "2.1": {
+          "title": "Identification Data",
+          "lt": [
+            "Full name",
+            "Email address",
+            "Phone number",
+            "Date of birth (when applicable)",
+            "Postal contact details"
+          ]
+        },
+        "2.2": {
+          "title": "Browsing Data",
+          "lt": [
+            "IP address",
+            "Browser type and version",
+            "Operating system",
+            "Pages visited and time spent",
+            "Traffic source (referrer)"
+          ]
+        },
+        "2.3": {
+          "title": "Medical Data (when applicable)",
+          "lt": [
+            "Relevant medical history",
+            "Allergies and medications",
+            "Clinical photographs (with explicit consent)",
+            "Information about treatments performed"
+          ]
+        }
+      },
+      "3": {
+        "title": "Purposes of Processing",
+        "3.1": {
+          "title": "Service Provision",
+          "lt": [
+            "Appointment scheduling and management",
+            "Provision of specialized medical care",
+            "Post-treatment follow-up",
+            "Communication about treatments and results"
+          ]
+        },
+        "3.2": {
+          "title": "Communication and Marketing",
+          "lt": [
+            "Responding to information requests",
+            "Sending newsletters (with consent)",
+            "Communicating new treatments and promotions",
+            "Satisfaction surveys"
+          ]
+        },
+        "3.3": {
+          "title": "Service Improvement",
+          "lt": [
+            "Website analysis and experience optimization",
+            "Development of new treatments",
+            "Medical team training",
+            "Scientific research (anonymized data)"
+          ]
+        }
+      },
+      "4": {
+        "title": "Legal Basis for Processing",
+        "p": "The processing of your personal data is based on the following legal grounds:",
+        "4.1": {
+          "title": "Consent",
+          "p": "For sending marketing communications, newsletters, and use of non-essential cookies, we request your explicit consent."
+        },
+        "4.2": {
+          "title": "Contract Execution",
+          "p": "For the provision of our medical services, data processing is necessary for the execution of the service contract."
+        },
+        "4.3": {
+          "title": "Legitimate Interest",
+          "p": "For improving our services, website analysis, and security, we rely on our legitimate interest."
+        },
+        "4.4": {
+          "title": "Legal Obligation",
+          "p": "Some data is processed to comply with legal obligations, particularly in tax and health matters."
+        }
+      },
+      "5": {
+        "title": "Data Sharing",
+        "p": "Santiclinic does not sell, rent, or share your personal data with third parties, except in the following situations:",
+        "5.1": {
+          "title": "Service Providers",
+          "lt": [
+            "Website hosting and maintenance companies",
+            "Email marketing services (with consent)",
+            "Payment processors",
+            "Web analytics services (Google Analytics)"
+          ]
+        },
+        "5.2": {
+          "title": "Legal Obligations",
+          "lt": [
+            "Relevant health authorities",
+            "Courts and judicial authorities",
+            "Tax authorities",
+            "Other entities where legally required"
+          ]
+        }
+      },
+      "6": {
+        "title": "Data Security",
+        "p": "We implement appropriate technical and organizational security measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.",
+        "6.1": {
+          "title": "Technical Measures",
+          "lt": [
+            "SSL/TLS encryption for data transmission",
+            "Firewalls and intrusion detection systems",
+            "Regular and secure backups",
+            "Frequent security updates"
+          ]
+        },
+        "6.2": {
+          "title": "Organizational Measures",
+          "lt": [
+            "Restricted data access on a 'need-to-know' basis",
+            "Regular staff training on data protection",
+            "Internal security policies",
+            "Physical access control to facilities"
+          ]
+        }
+      },
+      "7": {
+        "title": "Data Retention",
+        "p": "Your personal data is retained only for as long as necessary for the purposes for which it was collected:",
+        "7.1": {
+          "title": "Patient Data",
+          "p": "Medical data is retained for a minimum of 5 years after the last contact, in accordance with applicable legislation."
+        },
+        "7.2": {
+          "title": "Marketing Data",
+          "p": "Marketing data is retained until consent is withdrawn or for a maximum period of 3 years without interaction."
+        },
+        "7.3": {
+          "title": "Browsing Data",
+          "p": "Browsing data is retained for a maximum of 26 months, following CNIL recommendations."
+        }
+      },
+      "8": {
+        "title": "Your Rights",
+        "p": "Under the General Data Protection Regulation (GDPR), you have the following rights:",
+        "lt": [
+          {
+            "title": "Right of Access",
+            "p": "You may request information about the data we process about you."
+          },
+          {
+            "title": "Right to Rectification",
+            "p": "You may request correction of incorrect or incomplete data."
+          },
+          {
+            "title": "Right to Erasure",
+            "p": "You may request deletion of your personal data."
+          },
+          {
+            "title": "Right to Restriction",
+            "p": "You may request the restriction of your data processing."
+          },
+          {
+            "title": "Right to Data Portability",
+            "p": "You may request the transfer of your data to another controller."
+          },
+          {
+            "title": "Right to Object",
+            "p": "You may object to the processing of your data for marketing purposes."
+          }
+        ]
+      },
+      "9": {
+        "title": "Contacts and Exercising Rights",
+        "p": [
+          "To exercise your rights or clarify any questions about this privacy policy, you can contact us:",
+          [
+            "If you are not satisfied with our response, you have the right to file a complaint with the",
+            "National Data Protection Commission (CNPD)."
+          ]
+        ],
+        "words": {
+          "phone": "Phone",
+          "adress": "Address",
+          "responsable": "Data Protection Officer:"
+        }
+      },
+      "10": {
+        "title": "Changes to the Policy",
+        "p": [
+          "Santiclinic reserves the right to amend this Privacy Policy at any time. Changes will be communicated through our website and, if material, via email to data subjects.",
+          "We recommend checking this page regularly to stay informed about how we protect your personal data."
+        ]
+      }
+    }
+  }
+}
