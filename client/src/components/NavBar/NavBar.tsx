@@ -1,9 +1,10 @@
-import { useState, useEffect, useCallback } from 'react';
+import {useState, useEffect, useCallback} from 'react';
 import './NavBar.css';
 import logo from "../../assets/react.svg";
 import LanguageSelector from "../LanguageSelector/LanguageSelector.tsx";
-import { useTranslation } from "react-i18next";
-import { Link } from 'react-router-dom';
+import {useTranslation} from "react-i18next";
+import {Link} from 'react-router-dom';
+import UserSection from "../UserSection/UserSection.tsx";
 
 // Nav item interface
 interface NavItem {
@@ -16,17 +17,17 @@ interface NavItem {
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
     const navItems: NavItem[] = [
-        { id: 1, name: t("navbar.links.1"), link: '/about_us/' },
+        {id: 1, name: t("navbar.links.1"), link: '/about_us/'},
         {
             id: 2,
-            name: t("navbar.links.2"),
-            link: '/services/',
+            name: t("navbar.links.2.title"),
+            link: '#',
             subItems: [
-                { name: t("about_us.links.0"), link: '/services/lab/' },
-                { name: t("about_us.links.1"), link: '/services/products/' },
+                {name: t("navbar.links.2.subtitle.0"), link: '#'},
+                {name: t("navbar.links.2.subtitle.0"), link: '#'},
             ]
         },
         {
@@ -34,12 +35,12 @@ const Navbar = () => {
             name: t("navbar.links.3.title"),
             link: '/products/',
             subItems: [
-                { name: t("navbar.links.3.subtitle.0"), link: '/products/hair-care/' },
-                { name: t("navbar.links.3.subtitle.1"), link: '/products/face-body-care/' },
-                { name: t("navbar.links.3.subtitle.2"), link: '/products/health-balance/' },
+                {name: t("navbar.links.3.subtitle.0"), link: '#'},
+                {name: t("navbar.links.3.subtitle.1"), link: '#'},
+                {name: t("navbar.links.3.subtitle.2"), link: '#'},
             ]
         },
-        { id: 4, name: t("navbar.links.4"), link: '/contact/' }
+        {id: 4, name: t("navbar.links.4"), link: '/contact/'}
     ];
 
     // Scroll effect
@@ -52,7 +53,9 @@ const Navbar = () => {
     // Prevent body scroll on mobile menu
     useEffect(() => {
         document.body.style.overflow = isMenuOpen ? 'hidden' : '';
-        return () => { document.body.style.overflow = ''; };
+        return () => {
+            document.body.style.overflow = '';
+        };
     }, [isMenuOpen]);
 
     const toggleMenu = useCallback(() => {
@@ -72,7 +75,7 @@ const Navbar = () => {
                     <div className="navbar-logo">
                         <Link to="/">
                             <div className="logo-container">
-                                <img id="toTop" src={logo} alt="logo" />
+                                <img id="toTop" src={logo} alt="logo"/>
                             </div>
                         </Link>
                     </div>
@@ -80,7 +83,7 @@ const Navbar = () => {
                     {/* Mobile Language Selector */}
                     <div className="mobile-visible-language">
                         <div className="language-selector">
-                            <LanguageSelector />
+                            <LanguageSelector/>
                         </div>
                     </div>
 
@@ -107,8 +110,11 @@ const Navbar = () => {
                     {/* Desktop Actions */}
                     <div className="desktop-actions navbar-actions">
                         <div className="language-selector">
-                            <LanguageSelector />
+                            <LanguageSelector/>
                         </div>
+                    </div>
+                    <div className="nav_user_section">
+                        <UserSection/>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -132,7 +138,7 @@ const Navbar = () => {
                         <div className="navbar-logo">
                             <Link to="/">
                                 <div className="logo-container">
-                                    <img src={logo} alt="logo" />
+                                    <img src={logo} alt="logo"/>
                                 </div>
                             </Link>
                         </div>

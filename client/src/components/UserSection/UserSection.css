@@ -1,0 +1,47 @@
+.user_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_account {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_icon_block {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.user_links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    z-index: 100;
+}
+
+.user_links a {
+    color: #5e5b55;
+}
+
+.user_links a:hover {
+    font-weight: bold;
+    color: #5e5b55;
+}
+
+.user_account:hover .user_links {
+    display: flex;
+}
+
+.cart-icon {
+    margin-left: 25px;
+    cursor: pointer;
+    color: #333;
+}
