@@ -1,4 +1,12 @@
 from rest_framework import serializers
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView,
+    TokenRefreshView,
+    TokenVerifyView,
+)
+from rest_framework import serializers
+from django.contrib.auth import authenticate
 from .models import User
 
 
@@ -54,3 +62,10 @@ class UserSerializer(serializers.ModelSerializer):
         instance.save()
         return instance
 
+class MyCustomTokenObtainPairSerializer(TokenObtainPairSerializer):
+    username_field = 'email'
+
+    def validate(self, attrs):
+        print(attrs)
+        data = super().validate(attrs)
+        return data

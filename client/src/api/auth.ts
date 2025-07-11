@@ -19,7 +19,30 @@ interface SignupData {
     tax_id: string;
 }
 
+export const refreshAccessToken = async () => {
+    const refreshToken = localStorage.getItem('refresh');
+    if (!refreshToken) return null;
+
+    try {
+        const response = await axios.post(`${BASE_URL}/refresh/`, {
+            refresh: refreshToken,
+        });
+
+        localStorage.setItem('access', response.data.access);
+
+        // Выводим токены в консоль
+        console.log('Access token:', response.data.access);
+        console.log('Refresh token:', refreshToken);
+
+        return response.data.access;
+    } catch (error) {
+        console.error('Refresh token error:', error);
+        return null;
+    }
+};
+
 export const login = (data: LoginData) => {
+    console.log(data);
     return axios.post(`${BASE_URL}/token/`, data);
 };
 

@@ -15,17 +15,27 @@ interface DecodedToken {
 
 const UserSection = () => {
     const [user, setUser] = useState<DecodedToken | null>(null);
-    const {t} = useTranslation();
+    const { t } = useTranslation();
+
     useEffect(() => {
         const token = localStorage.getItem("access");
 
         if (token) {
             try {
                 const decoded = jwtDecode<DecodedToken>(token);
-                setUser(decoded);
+
+                // Проверим, не истёк ли токен
+                if (decoded.exp * 1000 > Date.now()) {
+                    setUser(decoded);
+                } else {
+                    console.warn("Token expired");
+                    setUser(null);
+                    localStorage.removeItem("access");
+                }
             } catch (error) {
                 console.error("Invalid token", error);
                 setUser(null);
+                localStorage.removeItem("access");
             }
         } else {
             setUser(null);
@@ -35,6 +45,7 @@ const UserSection = () => {
     return (
         <div className="user_section">
             {user ? (
+                console.log(user),
                 <>
                     <Link to="/myaccount" className="user_link">
                         <FontAwesomeIcon icon={faUser} className="user_icon"/>

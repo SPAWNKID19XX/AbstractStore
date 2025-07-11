@@ -1,11 +1,34 @@
 import React, {useState, useContext} from 'react';
-import {signup} from '../api/auth';
-import {AuthContext} from '../context/AuthContext';
+import {signup} from '../../api/auth.ts';
+import {AuthContext} from '../../context/AuthContext.tsx';
 import {AxiosError} from 'axios';
 
 
 const SignUp: React.FC = () => {
 
+    interface SignUpGenderField {
+        id: number
+        value: string
+        label: string
+    }
+
+    const genderFields: SignUpGenderField[] = [
+        {
+            id: 1,
+            value: "select",
+            label: "Select"
+        },
+        {
+            id: 2,
+            value: "male",
+            label: "Male"
+        },
+        {
+            id: 3,
+            value: "female",
+            label: "Female"
+        }
+    ]
 
     const {setAuthData} = useContext(AuthContext);
 
@@ -64,10 +87,11 @@ const SignUp: React.FC = () => {
             <input name="phone" placeholder="Телефон" value={formData.phone} onChange={handleChange}/>
             <input name="address" placeholder="Адрес" value={formData.address} onChange={handleChange}/>
             <select name="gender" value={formData.gender} onChange={handleChange}>
-                <option value="">Пол</option>
-                <option value="male">Мужской</option>
-                <option value="female">Женский</option>
-                <option value="other">Другой</option>
+                {genderFields.map((genderOption) => (
+                    <option key={genderOption.value} value={genderOption.value}>
+                        {genderOption.label}
+                    </option>
+                ))}
             </select>
             <input name="date_of_birth" type="date" value={formData.date_of_birth} onChange={handleChange}/>
             <input name="tax_id" placeholder="ИНН" value={formData.tax_id} onChange={handleChange}/>
