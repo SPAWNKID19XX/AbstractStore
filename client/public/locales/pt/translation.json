@@ -1,0 +1,240 @@
+{
+  "navbar": {
+    "links": {
+      "1": "Sobre Nós",
+      "2": {
+        "title": "Serviços",
+        "subtitle": [
+          "opção1",
+          "opção2"
+        ]
+      },
+      "3": {
+        "title": "Produtos",
+        "subtitle": [
+          "opção1",
+          "opção2",
+          "opção3"
+        ]
+      },
+      "4": "Contato"
+    },
+    "user_lt": [
+      "Entrar",
+      "Registrar-se"
+    ]
+  },
+  "ftr": {
+    "info_coockies": {
+      "p": "Utilizamos cookies para melhorar a funcionalidade do site. Ao continuar a usá-lo, você aceita o uso de cookies.",
+      "btn": "Aceitar"
+    },
+    "slogan": "CadlyBreeze — a sua brisa de frescor, beleza e força.",
+    "contact": {
+      "title": "Contato"
+    },
+    "docs": {
+      "title": "Documentos",
+      "lt": [
+        "Política de Privacidade",
+        "Política de Cookies",
+        "Termos e Condições"
+      ]
+    },
+    "frm": {
+      "title": "Formulário de contato",
+      "p": "Preencha o formulário abaixo para entrar em contato com nossa equipe",
+      "fields": {
+        "name": "Nome",
+        "phone": "Telefone",
+        "subject": {
+          "title": "Assunto",
+          "lt": [
+            "Selecione um assunto",
+            "Consulta Geral",
+            "Suporte Técnico",
+            "Feedback",
+            "Informações"
+          ]
+        },
+        "msg": "Mensagem",
+        "axcept": [
+          "Li e aceito os",
+          "Termos e Condições"
+        ]
+      },
+      "btn": "Enviar",
+      "success_msg": "E-mail enviado com sucesso!",
+      "error_msg": "Ocorreu um erro ao enviar o e-mail!"
+    },
+    "bf": "Todos os direitos reservados."
+  },
+  "pc": {
+    "top_info": {
+      "title": "Informação sobre como utilizamos cookies para melhorar a sua experiência no nosso site.",
+      "last_update": "Última atualização: Janeiro 2025",
+      "version": "Versão"
+    },
+    "lt": [
+      {
+        "title": "O Que São Cookies?",
+        "lt": [
+          "Cookies são pequenos arquivos de texto que são colocados no seu dispositivo (computador, tablet ou telemóvel) quando visita o nosso site. Estes arquivos permitem que o site reconheça o seu dispositivo e armazene algumas informações sobre as suas preferências ou ações anteriores.",
+          "Os cookies são amplamente utilizados para fazer os sites funcionarem de forma mais eficiente, bem como para fornecer informações aos proprietários do site sobre como os utilizadores interagem com o site."
+        ]
+      },
+      {
+        "title": "Como Utilizamos os Cookies",
+        "p": "A Santiclinic utiliza cookies para diversos fins, sempre com o objetivo de melhorar a sua experiência no nosso site e fornecer serviços personalizados.",
+        "sub": {
+          "1": {
+            "title": "Funcionalidade do Site",
+            "lt": [
+              "Lembrar as suas preferências de idioma",
+              "Manter a sua sessão ativa durante a navegação",
+              "Armazenar informações de formulários para sua conveniência",
+              "Personalizar a apresentação do conteúdo"
+            ]
+          },
+          "2": {
+            "title": "Análise e Melhoramento",
+            "lt": [
+              "Analisar o tráfego e padrões de utilização do site",
+              "Identificar as páginas mais visitadas e áreas de interesse",
+              "Melhorar a estrutura e conteúdo do site",
+              "Otimizar a experiência do utilizador"
+            ]
+          },
+          "3": {
+            "title": "Marketing e Comunicação",
+            "lt": [
+              "Exibir anúncios relevantes aos seus interesses",
+              "Medir a eficácia das nossas campanhas",
+              "Personalizar ofertas e comunicações",
+              "Retargeting em outras plataformas"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Tipos de Cookies",
+        "p": "Utilizamos diferentes tipos de cookies, cada um com propósitos específicos.",
+        "lt": [
+          {
+            "title": "Cookies Necessários",
+            "inf": "Sempre Ativos",
+            "p": "Estes cookies são essenciais para o funcionamento básico do site. Sem eles, certas funcionalidades não funcionariam corretamente.",
+            "lt": [
+              "Gestão de sessões",
+              "Segurança do site",
+              "Funcionalidades básicas de navegação",
+              "Preferências de acessibilidade"
+            ]
+          },
+          {
+            "title": "Cookies Analíticos",
+            "inf": "Opcional",
+            "p": "Ajudam-nos a entender como os visitantes interagem com o site, fornecendo informações sobre páginas visitadas, tempo de permanência e outras métricas.",
+            "lt": [
+              "Google Analytics",
+              "Mapas de calor e gravações de sessão",
+              "Análise de desempenho",
+              "Estatísticas de utilização"
+            ]
+          },
+          {
+            "title": "Cookies de Marketing",
+            "inf": "Opcional",
+            "p": "Utilizados para exibir publicidade relevante e medir a eficácia das nossas campanhas de marketing.",
+            "lt": [
+              "Facebook Pixel",
+              "Google Ads",
+              "Remarketing e retargeting",
+              "Publicidade personalizada"
+            ]
+          },
+          {
+            "title": "Cookies Funcionais",
+            "inf": "Opcional",
+            "p": "Permitem funcionalidades avançadas como chat ao vivo, formulários melhorados e outras características personalizadas.",
+            "lt": [
+              "Chat ao vivo",
+              "Formulários inteligentes",
+              "Personalização de conteúdo",
+              "Preferências do utilizador"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cookies Específicos Utilizados",
+        "p": "A seguinte tabela detalha os cookies específicos utilizados no nosso site.",
+        "tbl": {
+          "hdr": {
+            "name": "Nome",
+            "type": "Tipo",
+            "duration": "Duração",
+            "obj": "Finalidade"
+          },
+          "type": {
+            "necessary": "Necessário",
+            "analize": "Analítico",
+            "marketing": "Marketing"
+          },
+          "duration": {
+            "year": "Ano",
+            "section": "Sessão",
+            "months": "Meses"
+          },
+          "obj": [
+            "Armazena as suas preferências de cookies",
+            "Identifica a sua sessão no site",
+            "Google Analytics – identificação do utilizador",
+            "Google Analytics – dados de sessão",
+            "Facebook Pixel – rastreamento de conversões",
+            "Google Ads – atribuição de conversões"
+          ]
+        }
+      }
+    ],
+    "bk_btn": "Voltar ao Site",
+    "rel_docs": "Documentos Relacionados",
+    "priv_pol": "Política de Privacidade"
+  },
+  "tc": {
+    "btn_back": "Voltar ao Site",
+    "rel_doc": "Documentos relacionados:",
+    "pp": "Política de Privacidade",
+    "top_info": {
+      "p": "Termos e condições gerais para a utilização dos serviços da Santiclinic.",
+      "last_update": "Última atualização: Janeiro 2025",
+      "version": "Versão"
+    },
+    "lt": {
+      "1": {
+        "title": "Informações Gerais",
+        "p": [
+          "Estes Termos e Condições regem a utilização do site da Santiclinic e a prestação dos nossos serviços de microcirurgia estética. Ao aceder ao nosso site ou utilizar os nossos serviços, aceita plenamente estes termos.",
+          "A Santiclinic reserva-se o direito de alterar estes termos a qualquer momento, e tais alterações entrarão em vigor após a publicação no site."
+        ]
+      }
+    }
+  },
+  "pp": {
+    "btn_back": "Voltar ao Site",
+    "rel_doc": "Documentos Relacionados:",
+    "pc": "Política de Cookies",
+    "top_info": "A Santiclinic está empenhada em proteger a sua privacidade e dados pessoais.",
+    "last_update": "Última atualização: Janeiro 2025",
+    "version": "Versão",
+    "lt": {
+      "1": {
+        "title": "Informações Gerais",
+        "p": [
+          "Esta Política de Privacidade descreve como a Santiclinic recolhe, utiliza, armazena e protege as informações pessoais dos utilizadores do nosso site e serviços de microcirurgia estética.",
+          "Esta política aplica-se a todos os dados pessoais recolhidos através do nosso site, formulários de contacto, consultas presenciais e qualquer outra interação com a Santiclinic."
+        ]
+      }
+    }
+  }
+}

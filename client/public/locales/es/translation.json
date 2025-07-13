@@ -1,0 +1,688 @@
+{
+  "navbar": {
+    "links": {
+      "1": "Sobre Nosotros",
+      "2": {
+        "title": "Servicios",
+        "subtitle": [
+          "opción1",
+          "opción2"
+        ]
+      },
+      "3": {
+        "title": "Productos",
+        "subtitle": [
+          "opción1",
+          "opción2",
+          "opción3"
+        ]
+      },
+      "4": "Contacto"
+    },
+    "user_lt": [
+      "Iniciar sesión",
+      "Registrarse"
+    ]
+  },
+  "mb": {
+    "title": "Bienvenido a Cuddly Breeze Lda",
+    "subtitle": "Crea tu propia marca de cosméticos – nosotros nos encargamos del resto",
+    "p": [
+      "Fórmulas naturales, enfoque personalizado y posibilidad de lanzar productos con tu propia etiqueta. Fórmulas únicas o soluciones listas para usar – tú eliges.",
+      "Tu marca. Mínimo esfuerzo. Máximo impacto."
+    ]
+  },
+  "ftr": {
+    "info_coockies": {
+      "p": "Utilizamos cookies para mejorar la funcionalidad del sitio. Al continuar usando el sitio, aceptas el uso de cookies.",
+      "btn": "Aceptar"
+    },
+    "slogan": "CadlyBreeze — tu brisa de frescura, belleza y fuerza.",
+    "contact": {
+      "title": "Contactos"
+    },
+    "docs": {
+      "title": "Documentos",
+      "lt": [
+        "Política de Privacidad",
+        "Política de Cookies",
+        "Términos y Condiciones"
+      ]
+    },
+    "frm": {
+      "title": "Formulario de contacto",
+      "p": "Por favor, complete el formulario a continuación para ponerse en contacto con nuestro equipo",
+      "fields": {
+        "name": "Nombre",
+        "phone": "Teléfono",
+        "subject": {
+          "title": "Asunto",
+          "lt": [
+            "Seleccione un asunto",
+            "Consulta General",
+            "Soporte Técnico",
+            "Comentarios",
+            "Información"
+          ]
+        },
+        "msg": "Mensaje",
+        "axcept": [
+          "He leído y acepto los",
+          "Términos y Condiciones"
+        ]
+      },
+      "btn": "Enviar",
+      "success_msg": "¡El correo ha sido enviado!",
+      "error_msg": "¡Se ha producido un error al enviar el correo!"
+    },
+    "bf": "Todos los derechos reservados."
+  },
+  "pc": {
+    "top_info": {
+      "title": "Información sobre cómo utilizamos las cookies para mejorar tu experiencia en nuestro sitio web.",
+      "last_update": "Última actualización: Enero 2025",
+      "version": "Versión"
+    },
+    "lt": [
+      {
+        "title": "¿Qué Son las Cookies?",
+        "lt": [
+          "Las cookies son pequeños archivos de texto que se colocan en tu dispositivo (ordenador, tableta o teléfono móvil) cuando visitas nuestro sitio web. Estos archivos permiten que el sitio web reconozca tu dispositivo y almacene información sobre tus preferencias o acciones anteriores.",
+          "Las cookies se utilizan ampliamente para hacer que los sitios web funcionen de manera más eficiente, así como para proporcionar información a los propietarios del sitio web sobre cómo los usuarios interactúan con el sitio."
+        ]
+      },
+      {
+        "title": "Cómo Utilizamos las Cookies",
+        "p": "Santiclinic utiliza cookies para diversos propósitos, siempre con el objetivo de mejorar tu experiencia en nuestro sitio web y proporcionar servicios personalizados.",
+        "sub": {
+          "1": {
+            "title": "Funcionalidad del Sitio Web",
+            "lt": [
+              "Recordar tus preferencias de idioma",
+              "Mantener tu sesión activa durante la navegación",
+              "Almacenar información de formularios para tu comodidad",
+              "Personalizar la presentación del contenido"
+            ]
+          },
+          "2": {
+            "title": "Análisis y Mejora",
+            "lt": [
+              "Analizar el tráfico y los patrones de uso del sitio web",
+              "Identificar las páginas más visitadas y áreas de interés",
+              "Mejorar la estructura y el contenido del sitio web",
+              "Optimizar la experiencia del usuario"
+            ]
+          },
+          "3": {
+            "title": "Marketing y Comunicación",
+            "lt": [
+              "Mostrar anuncios relevantes a tus intereses",
+              "Medir la efectividad de nuestras campañas",
+              "Personalizar ofertas y comunicaciones",
+              "Retargeting en otras plataformas"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Tipos de Cookies",
+        "p": "Utilizamos diferentes tipos de cookies, cada una con propósitos específicos.",
+        "lt": [
+          {
+            "title": "Cookies Necesarias",
+            "inf": "Siempre Activas",
+            "p": "Estas cookies son esenciales para el funcionamiento básico del sitio web. Sin ellas, ciertas características no funcionarían correctamente.",
+            "lt": [
+              "Gestión de sesiones",
+              "Seguridad del sitio web",
+              "Funciones básicas de navegación",
+              "Preferencias de accesibilidad"
+            ]
+          },
+          {
+            "title": "Cookies Analíticas",
+            "inf": "Opcional",
+            "p": "Nos ayudan a entender cómo los visitantes interactúan con el sitio web, proporcionando información sobre páginas visitadas, tiempo de permanencia y otras métricas.",
+            "lt": [
+              "Google Analytics",
+              "Mapas de calor y grabaciones de sesión",
+              "Análisis de rendimiento",
+              "Estadísticas de uso"
+            ]
+          },
+          {
+            "title": "Cookies de Marketing",
+            "inf": "Opcional",
+            "p": "Utilizadas para mostrar publicidad relevante y medir la efectividad de nuestras campañas de marketing.",
+            "lt": [
+              "Facebook Pixel",
+              "Google Ads",
+              "Remarketing y retargeting",
+              "Publicidad personalizada"
+            ]
+          },
+          {
+            "title": "Cookies Funcionales",
+            "inf": "Opcional",
+            "p": "Permiten funciones avanzadas como chat en vivo, formularios mejorados y otras características personalizadas.",
+            "lt": [
+              "Chat en vivo",
+              "Formularios inteligentes",
+              "Personalización de contenido",
+              "Preferencias de usuario"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cookies Específicas Utilizadas",
+        "p": "La siguiente tabla detalla las cookies específicas utilizadas en nuestro sitio web.",
+        "tbl": {
+          "hdr": {
+            "name": "Nombre",
+            "type": "Tipo",
+            "duration": "Duración",
+            "obj": "Propósito"
+          },
+          "type": {
+            "necessary": "Necesaria",
+            "analize": "Analítica",
+            "marketing": "Marketing"
+          },
+          "duration": {
+            "year": "Año",
+            "section": "Sesión",
+            "months": "Meses"
+          },
+          "obj": [
+            "Almacena tus preferencias de cookies",
+            "Identifica tu sesión en el sitio web",
+            "Google Analytics – identificación de usuario",
+            "Google Analytics – datos de sesión",
+            "Facebook Pixel – seguimiento de conversiones",
+            "Google Ads – atribución de conversiones"
+          ]
+        }
+      },
+      {
+        "title": "Gestión de Cookies",
+        "sub": {
+          "1": {
+            "title": "Controla tus Preferencias",
+            "p": "Puedes gestionar tus preferencias de cookies en cualquier momento a través de nuestro banner de cookies o haciendo clic en el botón siguiente:",
+            "btn": "Gestionar Preferencias de Cookies"
+          },
+          "2": {
+            "title": "Configuración del Navegador",
+            "p": "La mayoría de los navegadores permiten controlar las cookies a través de la configuración. Puedes configurar tu navegador para:",
+            "lt": [
+              "Bloquear todas las cookies",
+              "Aceptar solo cookies de origen",
+              "Eliminar cookies al cerrar el navegador",
+              "Notificar antes de aceptar cookies"
+            ]
+          },
+          "3": {
+            "title": "Enlaces de Configuración"
+          }
+        }
+      },
+      {
+        "title": "Cookies de Terceros",
+        "p": "Algunas cookies en nuestro sitio web son establecidas por servicios de terceros. Estos servicios tienen sus propias políticas de privacidad:",
+        "lt": [
+          {
+            "title": "Google Analytics",
+            "p": "Utilizado para analizar el tráfico del sitio web y el comportamiento del usuario.",
+            "link": "Ver Política de Privacidad"
+          },
+          {
+            "title": "Facebook Pixel",
+            "p": "Utilizado para publicidad dirigida y seguimiento de conversiones.",
+            "link": "Ver Política de Privacidad"
+          },
+          {
+            "title": "Google Ads",
+            "p": "Utilizado para campañas publicitarias y remarketing.",
+            "link": "Ver Política de Privacidad"
+          }
+        ]
+      },
+      {
+        "title": "Impacto de la Desactivación",
+        "p": "Si eliges desactivar las cookies, algunas funciones del sitio web pueden verse afectadas:",
+        "lt": [
+          {
+            "title": "Cookies Necesarias",
+            "p": "La desactivación puede causar problemas de funcionalidad, pérdida de sesión y dificultades de navegación."
+          },
+          {
+            "title": "Cookies Analíticas",
+            "p": "La desactivación no afecta la funcionalidad, pero limita nuestra capacidad para mejorar el sitio web."
+          },
+          {
+            "title": "Cookies de Marketing",
+            "p": "La desactivación significa que podrías ver anuncios menos relevantes a tus intereses."
+          }
+        ]
+      },
+      {
+        "title": "Actualizaciones de la Política",
+        "lt": [
+          "Santiclinic puede actualizar esta Política de Cookies periódicamente para reflejar cambios en nuestros servicios o en la legislación aplicable.",
+          "Cuando realicemos cambios significativos, te notificaremos a través de nuestro sitio web y, si corresponde, por correo electrónico. La fecha de la última actualización siempre se indica en la parte superior de esta página.",
+          "Te recomendamos revisar esta política regularmente para mantenerte informado sobre cómo utilizamos las cookies."
+        ]
+      },
+      {
+        "title": "Contacto",
+        "p": "Si tienes alguna pregunta sobre esta Política de Cookies o sobre cómo utilizamos las cookies, puedes contactarnos a través de:",
+        "lt": [
+          "Correo electrónico",
+          "Teléfono",
+          "Dirección"
+        ],
+        "quest": [
+          "Para preguntas generales sobre privacidad y protección de datos, consulta nuestra Política de Privacidad.",
+          "Política de Privacidad"
+        ]
+      }
+    ],
+    "bk_btn": "Volver al Sitio Web",
+    "rel_docs": "Documentos Relacionados",
+    "priv_pol": "Política de Privacidad"
+  },
+  "tc": {
+    "btn_back": "Volver al Sitio Web",
+    "rel_doc": "Documentos relacionados:",
+    "pp": "Política de Privacidad",
+    "top_info": {
+      "p": "Términos y condiciones generales para el uso de los servicios de Santiclinic.",
+      "last_update": "Última actualización: Enero 2025",
+      "version": "Versión"
+    },
+    "lt": {
+      "1": {
+        "title": "Información General",
+        "p": [
+          "Estos Términos y Condiciones rigen el uso del sitio web de Santiclinic y la prestación de nuestros servicios de microcirugía cosmética. Al acceder a nuestro sitio web o utilizar nuestros servicios, aceptas plenamente estos términos.",
+          "Santiclinic se reserva el derecho de modificar estos términos en cualquier momento, y dichos cambios entrarán en vigor tras su publicación en el sitio web."
+        ]
+      },
+      "2": {
+        "title": "Identificación de la Entidad",
+        "words": {
+          "name": "Nombre de la Empresa",
+          "adress": "Dirección",
+          "phone": "Teléfono"
+        }
+      },
+      "3": {
+        "title": "Servicios Prestados",
+        "p": "Santiclinic ofrece servicios especializados de microcirugía cosmética, incluyendo",
+        "3.1": {
+          "title": "Tratamientos Disponibles",
+          "lt": [
+            "Micro-lifting de cejas",
+            "Micro-blefaroplastia superior e inferior",
+            "Micro-lifting de plano profundo",
+            "Mini micro-lifting",
+            "Micro-implante de cejas (técnica exclusiva)",
+            "Micro-otoplastia",
+            "Micro-lobuloplastia",
+            "Consultas de microcirugía cosmética"
+          ]
+        },
+        "3.2": {
+          "title": "Consultas",
+          "p": "Todos los tratamientos son precedidos por una consulta médica obligatoria para evaluar la idoneidad del procedimiento y aclarar cualquier duda."
+        }
+      },
+      "4": {
+        "title": "Uso del Sitio Web",
+        "4.1": {
+          "title": "Condiciones de Acceso",
+          "p": "El acceso al sitio web es gratuito, pero algunos servicios pueden requerir completar formularios o proporcionar datos personales."
+        },
+        "4.2": {
+          "title": "Usos Prohibidos",
+          "p": "Está estrictamente prohibido:",
+          "lt": [
+            "Usar el sitio web para fines ilegales o no autorizados",
+            "Transmitir virus o código malicioso",
+            "Intentar acceder a áreas restringidas del sistema",
+            "Reproducir, distribuir o modificar contenido sin autorización",
+            "Interferir con el funcionamiento normal del sitio web"
+          ]
+        },
+        "4.3": {
+          "title": "Propiedad Intelectual",
+          "p": "Todo el contenido del sitio web, incluyendo textos, imágenes, logotipos y diseño, es propiedad de Santiclinic y está protegido por las leyes de derechos de autor."
+        }
+      },
+      "5": {
+        "title": "Citas y Cancelaciones",
+        "5.1": {
+          "title": "Reserva de Consultas",
+          "p": "Las consultas se pueden reservar a través del sitio web, por teléfono o vía WhatsApp. La confirmación se enviará por correo electrónico o SMS."
+        },
+        "5.2": {
+          "title": "Política de Cancelación",
+          "lt": [
+            "Las cancelaciones deben comunicarse con al menos 24 horas de antelación",
+            "Las cancelaciones tardías pueden estar sujetas a cargos",
+            "Las ausencias sin justificación pueden incurrir en el cargo de la consulta",
+            "El cambio de cita está permitido según disponibilidad"
+          ]
+        },
+        "5.3": {
+          "title": "Retrasos",
+          "p": "Si llegas más de 15 minutos tarde, la consulta puede ser reprogramada para otro horario disponible."
+        }
+      },
+      "6": {
+        "title": "Términos Comerciales",
+        "subtitle": "Precios y Pagos",
+        "6.1": [
+          "Los precios están en euros e incluyen IVA",
+          "Los precios pueden cambiar sin previo aviso",
+          "El pago puede realizarse en efectivo, tarjeta o transferencia bancaria",
+          "Algunos tratamientos pueden requerir pago por adelantado"
+        ],
+        "6.2": {
+          "title": "Presupuestos",
+          "p": "Todos los presupuestos son válidos por 30 días y están sujetos a confirmación después de la consulta médica."
+        },
+        "6.3": {
+          "title": "Garantías",
+          "p": "Santiclinic garantiza la calidad de los servicios prestados de acuerdo con las buenas prácticas médicas, pero no garantiza resultados específicos."
+        }
+      },
+      "7": {
+        "title": "Responsabilidades y Limitaciones",
+        "7.1": {
+          "title": "Responsabilidad de Santiclinic",
+          "p": "Santiclinic se compromete a proporcionar servicios de calidad, pero su responsabilidad se limita a daños directos y verificables."
+        },
+        "7.2": {
+          "title": "Responsabilidad del Cliente",
+          "lt": [
+            "Proporcionar información médica veraz y completa",
+            "Seguir las instrucciones pre y post operatorias",
+            "Informar sobre cualquier cambio en el estado de salud",
+            "Cumplir con las obligaciones de pago"
+          ]
+        },
+        "7.3": {
+          "title": "Limitaciones",
+          "p": "Santiclinic no es responsable de resultados que dependan de factores fuera de su control, como la cicatrización individual o el cumplimiento de las recomendaciones médicas."
+        }
+      },
+      "8": {
+        "title": {
+          "title": "Protección de Datos",
+          "p": [
+            "El tratamiento de tus datos personales se rige por nuestra",
+            "Política de Privacidad",
+            "que forma parte integral de estos términos y condiciones"
+          ]
+        },
+        "8.1": {
+          "title": "Finalidades",
+          "lt": [
+            "Prestación de servicios médicos",
+            "Gestión de la relación comercial",
+            "Cumplimiento de obligaciones legales",
+            "Marketing directo (con consentimiento)"
+          ]
+        },
+        "8.2": {
+          "title": "Derechos del Interesado",
+          "p": "Puedes ejercer tus derechos de acceso, rectificación, supresión y otros derechos bajo el RGPD contactándonos a través de los canales proporcionados en la Política de Privacidad."
+        }
+      },
+      "9": {
+        "title": "Resolución de Conflictos",
+        "9.1": {
+          "title": "Reclamaciones",
+          "p": "Las reclamaciones deben dirigirse primero a Santiclinic utilizando los datos de contacto proporcionados en el sitio web."
+        },
+        "9.2": {
+          "title": "Mediación",
+          "p": "En caso de disputa, las partes acuerdan intentar la mediación antes de recurrir a los tribunales."
+        },
+        "9.3": {
+          "title": "Ley Aplicable",
+          "p": "Estos términos se rigen por la ley portuguesa, siendo competentes los tribunales del distrito donde Santiclinic tiene su sede."
+        }
+      },
+      "10": {
+        "title": "Disposiciones Finales",
+        "10.1": {
+          "title": "Modificaciones",
+          "p": "Santiclinic se reserva el derecho de modificar estos términos en cualquier momento, comunicando los cambios a través del sitio web."
+        },
+        "10.2": {
+          "title": "Validez",
+          "p": "Si alguna disposición de estos términos se considera inválida, las disposiciones restantes permanecerán en pleno vigor."
+        },
+        "10.3": {
+          "title": "Contactos",
+          "p": "Para preguntas relacionadas con estos términos y condiciones, puedes contactarnos a través de:"
+        }
+      }
+    }
+  },
+  "pp": {
+    "btn_back": "Volver al Sitio Web",
+    "rel_doc": "Documentos Relacionados:",
+    "pc": "Política de Cookies",
+    "top_info": "Santiclinic está comprometida con la protección de tu privacidad y datos personales.",
+    "last_update": "Última actualización: Enero 2025",
+    "version": "Versión",
+    "lt": {
+      "1": {
+        "title": "Información General",
+        "p": [
+          "Esta Política de Privacidad describe cómo Santiclinic recopila, utiliza, almacena y protege la información personal de los usuarios de nuestro sitio web y servicios de microcirugía cosmética.",
+          "Esta política se aplica a todos los datos personales recopilados a través de nuestro sitio web, formularios de contacto, consultas presenciales y cualquier otra interacción con Santiclinic."
+        ]
+      },
+      "2": {
+        "title": "Datos Personales Recopilados",
+        "2.1": {
+          "title": "Datos de Identificación",
+          "lt": [
+            "Nombre completo",
+            "Dirección de correo electrónico",
+            "Número de teléfono",
+            "Fecha de nacimiento (cuando aplique)",
+            "Dirección postal"
+          ]
+        },
+        "2.2": {
+          "title": "Datos de Navegación",
+          "lt": [
+            "Dirección IP",
+            "Tipo y versión del navegador",
+            "Sistema operativo",
+            "Páginas visitadas y tiempo de permanencia",
+            "Fuente de tráfico (referente)"
+          ]
+        },
+        "2.3": {
+          "title": "Datos Médicos (cuando aplique)",
+          "lt": [
+            "Historial médico relevante",
+            "Alergias y medicamentos",
+            "Fotografías clínicas (con consentimiento explícito)",
+            "Información sobre tratamientos realizados"
+          ]
+        }
+      },
+      "3": {
+        "title": "Finalidades del Tratamiento",
+        "3.1": {
+          "title": "Prestación de Servicios",
+          "lt": [
+            "Programación y gestión de citas",
+            "Prestación de atención médica especializada",
+            "Seguimiento post-tratamiento",
+            "Comunicación sobre tratamientos y resultados"
+          ]
+        },
+        "3.2": {
+          "title": "Comunicación y Marketing",
+          "lt": [
+            "Respuesta a solicitudes de información",
+            "Envío de boletines (con consentimiento)",
+            "Comunicación de nuevos tratamientos y promociones",
+            "Encuestas de satisfacción"
+          ]
+        },
+        "3.3": {
+          "title": "Mejora del Servicio",
+          "lt": [
+            "Análisis y optimización de la experiencia del sitio web",
+            "Desarrollo de nuevos tratamientos",
+            "Formación del equipo médico",
+            "Investigación científica (datos anonimizados)"
+          ]
+        }
+      },
+      "4": {
+        "title": "Base Legal para el Tratamiento",
+        "p": "El tratamiento de tus datos personales se basa en los siguientes fundamentos legales:",
+        "4.1": {
+          "title": "Consentimiento",
+          "p": "Para el envío de comunicaciones comerciales, boletines y uso de cookies no esenciales, solicitamos tu consentimiento explícito."
+        },
+        "4.2": {
+          "title": "Ejecución del Contrato",
+          "p": "Para la prestación de nuestros servicios médicos, el tratamiento de datos es necesario para la ejecución del contrato de servicio."
+        },
+        "4.3": {
+          "title": "Interés Legítimo",
+          "p": "Para mejorar nuestros servicios, análisis del sitio web y seguridad, nos basamos en nuestro interés legítimo."
+        },
+        "4.4": {
+          "title": "Obligación Legal",
+          "p": "Algunos datos se procesan para cumplir con obligaciones legales, particularmente en materia fiscal y sanitaria."
+        }
+      },
+      "5": {
+        "title": "Compartición de Datos",
+        "p": "Santiclinic no vende, alquila ni comparte tus datos personales con terceros, excepto en las siguientes situaciones:",
+        "5.1": {
+          "title": "Proveedores de Servicios",
+          "lt": [
+            "Empresas de alojamiento y mantenimiento web",
+            "Servicios de email marketing (con consentimiento)",
+            "Procesadores de pago",
+            "Servicios de análisis web (Google Analytics)"
+          ]
+        },
+        "5.2": {
+          "title": "Obligaciones Legales",
+          "lt": [
+            "Autoridades sanitarias competentes",
+            "Tribunales y autoridades judiciales",
+            "Autoridades fiscales",
+            "Otras entidades cuando sea legalmente requerido"
+          ]
+        }
+      },
+      "6": {
+        "title": "Seguridad de los Datos",
+        "p": "Implementamos medidas de seguridad técnicas y organizativas apropiadas para proteger tus datos personales contra acceso, alteración, divulgación o destrucción no autorizados.",
+        "6.1": {
+          "title": "Medidas Técnicas",
+          "lt": [
+            "Cifrado SSL/TLS para la transmisión de datos",
+            "Cortafuegos y sistemas de detección de intrusiones",
+            "Copias de seguridad regulares y seguras",
+            "Actualizaciones frecuentes de seguridad"
+          ]
+        },
+        "6.2": {
+          "title": "Medidas Organizativas",
+          "lt": [
+            "Acceso restringido a datos según necesidad",
+            "Formación regular del personal en protección de datos",
+            "Políticas internas de seguridad",
+            "Control de acceso físico a instalaciones"
+          ]
+        }
+      },
+      "7": {
+        "title": "Conservación de Datos",
+        "p": "Tus datos personales se conservan solo durante el tiempo necesario para los fines para los que fueron recopilados:",
+        "7.1": {
+          "title": "Datos de Pacientes",
+          "p": "Los datos médicos se conservan durante un mínimo de 5 años después del último contacto, de acuerdo con la legislación aplicable."
+        },
+        "7.2": {
+          "title": "Datos de Marketing",
+          "p": "Los datos de marketing se conservan hasta que se retire el consentimiento o por un período máximo de 3 años sin interacción."
+        },
+        "7.3": {
+          "title": "Datos de Navegación",
+          "p": "Los datos de navegación se conservan durante un máximo de 26 meses, siguiendo las recomendaciones de la CNIL."
+        }
+      },
+      "8": {
+        "title": "Tus Derechos",
+        "p": "Bajo el Reglamento General de Protección de Datos (RGPD), tienes los siguientes derechos:",
+        "lt": [
+          {
+            "title": "Derecho de Acceso",
+            "p": "Puedes solicitar información sobre los datos que procesamos sobre ti."
+          },
+          {
+            "title": "Derecho de Rectificación",
+            "p": "Puedes solicitar la corrección de datos incorrectos o incompletos."
+          },
+          {
+            "title": "Derecho de Supresión",
+            "p": "Puedes solicitar la eliminación de tus datos personales."
+          },
+          {
+            "title": "Derecho de Limitación",
+            "p": "Puedes solicitar la limitación del tratamiento de tus datos."
+          },
+          {
+            "title": "Derecho a la Portabilidad",
+            "p": "Puedes solicitar la transferencia de tus datos a otro responsable."
+          },
+          {
+            "title": "Derecho de Oposición",
+            "p": "Puedes oponerte al tratamiento de tus datos para fines de marketing."
+          }
+        ]
+      },
+      "9": {
+        "title": "Contactos y Ejercicio de Derechos",
+        "p": [
+          "Para ejercer tus derechos o aclarar cualquier duda sobre esta política de privacidad, puedes contactarnos:",
+          [
+            "Si no estás satisfecho con nuestra respuesta, tienes derecho a presentar una reclamación ante la",
+            "Comisión Nacional de Protección de Datos (CNPD)."
+          ]
+        ],
+        "words": {
+          "phone": "Teléfono",
+          "adress": "Dirección",
+          "responsable": "Delegado de Protección de Datos:"
+        }
+      },
+      "10": {
+        "title": "Cambios en la Política",
+        "p": [
+          "Santiclinic se reserva el derecho de modificar esta Política de Privacidad en cualquier momento. Los cambios se comunicarán a través de nuestro sitio web y, si son sustanciales, por correo electrónico a los interesados.",
+          "Recomendamos revisar esta página regularmente para mantenerte informado sobre cómo protegemos tus datos personales."
+        ]
+      }
+    }
+  }
+}
+

@@ -1,4 +1,12 @@
 from rest_framework import serializers
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView,
+    TokenRefreshView,
+    TokenVerifyView,
+)
+from rest_framework import serializers
+from django.contrib.auth import authenticate
 from .models import User
 
 
@@ -29,7 +37,11 @@ class UserSerializer(serializers.ModelSerializer):
         password = validated_data.pop('password', None)
         if password is None:
             raise serializers.ValidationError('Password is required')
-        return User.objects.create_user(**validated_data)
+
+        user = User(**validated_data)
+        user.set_password(password)
+        user.save()
+        return user
 
     def update(self, instance, validated_data):
         instance.email = validated_data.get('email', instance.email)
@@ -50,3 +62,10 @@ class UserSerializer(serializers.ModelSerializer):
         instance.save()
         return instance
 
+class MyCustomTokenObtainPairSerializer(TokenObtainPairSerializer):
+    username_field = 'email'
+
+    def validate(self, attrs):
+        print(attrs)
+        data = super().validate(attrs)
+        return data
