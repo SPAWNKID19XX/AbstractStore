@@ -24,8 +24,8 @@ const Login = () => {
         setError(null);
         setLoading(true);
         try {
-            await login(formData.email, formData.password);  // Вызов из контекста
-            alert('User Logged');
+            await login(formData.email, formData.password);
+            window.location.href = '/';
         } catch (err: unknown) {
             const error = err as AxiosError;
 
