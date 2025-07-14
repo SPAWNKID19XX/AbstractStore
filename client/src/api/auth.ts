@@ -24,7 +24,7 @@ export const refreshAccessToken = async () => {
     if (!refreshToken) return null;
 
     try {
-        const response = await axios.post(`${BASE_URL}/refresh/`, {
+        const response = await axios.post(`${BASE_URL}/token/refresh/`, {
             refresh: refreshToken,
         });
 
@@ -41,11 +41,34 @@ export const refreshAccessToken = async () => {
     }
 };
 
+
+export const getCurrentUser = async () => {
+    const accessToken = localStorage.getItem('access');
+    if (!accessToken) return null;
+
+    try {
+        const response = await axios.get(`${BASE_URL}/me/`, {
+            headers: {
+                Authorization: `Bearer ${accessToken}`,
+            },
+        });
+        console.log(response.data)
+        return response.data;
+    } catch (error) {
+        console.error('Error fetching current user:', error);
+        return null;
+    }
+};
+
 export const login = (data: LoginData) => {
-    console.log(data);
-    return axios.post(`${BASE_URL}/token/`, data);
+  return axios.post(`${BASE_URL}/token/`, data);
 };
 
 export const signup = (data: SignupData) => {
     return axios.post(`${BASE_URL}/signup/`, data);
+};
+
+export const logout = () => {
+  localStorage.removeItem('access');
+  localStorage.removeItem('refresh');
 };

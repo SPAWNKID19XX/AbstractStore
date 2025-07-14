@@ -1,36 +1,23 @@
-import React, {useState, useContext} from 'react';
+import React, {useState} from 'react';
 import {signup} from '../../api/auth.ts';
-import {AuthContext} from '../../context/AuthContext.tsx';
+import {useAuth} from '../../auth/authContext.ts';
 import {AxiosError} from 'axios';
-
 
 const SignUp: React.FC = () => {
 
     interface SignUpGenderField {
-        id: number
-        value: string
-        label: string
+        id: number;
+        value: string;
+        label: string;
     }
 
     const genderFields: SignUpGenderField[] = [
-        {
-            id: 1,
-            value: "select",
-            label: "Select"
-        },
-        {
-            id: 2,
-            value: "male",
-            label: "Male"
-        },
-        {
-            id: 3,
-            value: "female",
-            label: "Female"
-        }
-    ]
+        {id: 1, value: 'select', label: 'Select'},
+        {id: 2, value: 'male', label: 'Male'},
+        {id: 3, value: 'female', label: 'Female'},
+    ];
 
-    const {setAuthData} = useContext(AuthContext);
+    const {updateUser} = useAuth();
 
     const [formData, setFormData] = useState({
         email: '',
@@ -56,18 +43,19 @@ const SignUp: React.FC = () => {
         setError(null);
         setLoading(true);
         try {
-            await signup(formData);
-            setAuthData?.({
-                accessToken: null,
-                refreshToken: null,
-                user: formData,
-            });
+            const response = await signup(formData);
+            const {access, refresh, user} = response.data;
+
+            localStorage.setItem('access', access);
+            localStorage.setItem('refresh', refresh);
+            updateUser(user);
+
             alert('Регистрация прошла успешно!');
         } catch (err: unknown) {
             const error = err as AxiosError;
 
             if (error.response) {
-                setError(error.response.data as string); // если error.response.data — строка
+                setError(error.response.data as string);
             } else {
                 setError('Неизвестная ошибка');
             }
@@ -87,16 +75,16 @@ const SignUp: React.FC = () => {
             <input name="phone" placeholder="Телефон" value={formData.phone} onChange={handleChange}/>
             <input name="address" placeholder="Адрес" value={formData.address} onChange={handleChange}/>
             <select name="gender" value={formData.gender} onChange={handleChange}>
-                {genderFields.map((genderOption) => (
-                    <option key={genderOption.value} value={genderOption.value}>
-                        {genderOption.label}
+                {genderFields.map(g => (
+                    <option key={g.value} value={g.value}>
+                        {g.label}
                     </option>
                 ))}
             </select>
             <input name="date_of_birth" type="date" value={formData.date_of_birth} onChange={handleChange}/>
             <input name="tax_id" placeholder="ИНН" value={formData.tax_id} onChange={handleChange}/>
 
-            {error && <p style={{color: 'red'}}>{JSON.stringify(error)}</p>}
+            {error && <p style={{color: 'red'}}>{error}</p>}
             <button type="submit" disabled={loading}>{loading ? 'Загрузка...' : 'Зарегистрироваться'}</button>
         </form>
     );
