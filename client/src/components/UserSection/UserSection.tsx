@@ -22,7 +22,7 @@ const UserSection = () => {
             {user ? (
                 <>
                     <div className="user_link_wrapper">
-                        <Link to="/myaccount" className="user_link">
+                        <Link to="/my-account" className="user_link">
                             <FontAwesomeIcon icon={faUser} className="user_icon"/>
                             <span>{toTitleCase(user.full_name)}</span>
                         </Link>

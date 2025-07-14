@@ -20,6 +20,8 @@ class UserSerializer(serializers.ModelSerializer):
             'password',
             'email',
             'full_name',
+            'first_name',
+            'last_name',
             "phone",
             "address",
             "gender",
@@ -32,6 +34,10 @@ class UserSerializer(serializers.ModelSerializer):
 
     def get_full_name(self, obj):
         return obj.get_full_name()
+
+    def get(self):
+        instance = self.Meta.model.objects.get(pk=self.context['view'].kwargs['pk'])
+        print(instance)
 
     def create(self, validated_data):
         password = validated_data.pop('password', None)
