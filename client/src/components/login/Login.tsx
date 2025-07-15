@@ -1,70 +1,56 @@
 import styles from './Login.module.css'
-import React, {useState} from "react";
-import {AxiosError} from "axios";
-import { useAuth } from "../../auth/authContext";
+import {useNavigate} from 'react-router-dom';
+import {useState} from "react";
+import {login} from "../../utils/auth.ts";
 
-const Login = () => {
 
-    const { login } = useAuth();
+const LoginForm = () => {
+    const navigate = useNavigate();
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
 
-    const [error, setError] = useState<string | null>(null);
-    const [loading, setLoading] = useState(false);
 
-    const [formData, setFormData] = useState({
-        email: '',
-        password: '',
-    });
-
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-        setFormData(prev => ({...prev, [e.target.name]: e.target.value}));
-    };
-
-    const handleSubmit = async (e: React.FormEvent) => {
+    const handleLogin = async (e: React.FormEvent) => {
         e.preventDefault();
-        setError(null);
-        setLoading(true);
+        setError('');
         try {
-            await login(formData.email, formData.password);
-            window.location.href = '/';
-        } catch (err: unknown) {
-            const error = err as AxiosError;
-
-            if (error.response) {
-                setError(error.response.data as string);
-            } else {
-                setError('Unknown error. Please try again later. If the problem persists, contact the administrator.');
-            }
-        } finally {
-            setLoading(false);
+            const tokens = await login({email, password});
+            localStorage.setItem('access', tokens.access);
+            localStorage.setItem('refresh', tokens.refresh);
+            navigate('/');
+        } catch (err) {
+            console.error(err);
+            setError("Email and Password not match");
         }
-    };
+    }
+
 
 
     return (
         <div className={styles.formContainer}>
-            <form className={styles.form} onSubmit={handleSubmit}>
+            <form className={styles.form} onSubmit={handleLogin}>
                 <h1>Login Form</h1>
                 <input
                     name="email"
                     type="email"
                     placeholder="Email"
                     required
-                    value={formData.email}
-                    onChange={handleChange}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                 />
                 <input
                     name="password"
                     type="password"
                     placeholder="Password"
                     required
-                    value={formData.password}
-                    onChange={handleChange}
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
                 />
-                {error && <p style={{color: 'red'}}>{JSON.stringify(error)}</p>}
-                <button type="submit" disabled={loading}>{loading ? 'Submitting...' : 'Login'}</button>
+                <button type="submit">Login</button>
             </form>
         </div>
     );
 };
 
-export default Login;
+export default LoginForm;

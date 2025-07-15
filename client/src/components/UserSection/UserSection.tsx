@@ -1,12 +1,17 @@
-import {faUser, faCartShopping} from "@fortawesome/free-solid-svg-icons";
+import {faCartShopping, faUser} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import {useTranslation} from "react-i18next";
-import {useAuth} from "../../auth/authContext";
+import { myData, logout, isAuthenticated } from "../../utils/auth";
+import type { UserData } from "../../utils/auth";
 import "./UserSection.css";
+import {useState, useEffect} from "react";
+
+
 
 const UserSection = () => {
-    const {user, logout} = useAuth();
+    const navigate = useNavigate();
+    const [userData, setUserData] = useState<UserData | null>(null);
     const {t} = useTranslation();
 
     function toTitleCase(str: string): string {
@@ -17,20 +22,42 @@ const UserSection = () => {
     }
 
 
+    const handleLogout = () => {
+        logout()
+        navigate('/login');
+    }
+
+    useEffect(() => {
+        if (isAuthenticated()) {
+            myData()
+                .then((user) => {
+                    console.log("User data:", user);
+                    setUserData(user);
+                })
+                .catch((err) => {
+                    console.error("Ошибка получения данных пользователя", err);
+                    logout();
+                    navigate("/login");
+                });
+        }
+    }, []);
+
+
     return (
         <div className="user_section">
-            {user ? (
+            {isAuthenticated() ? (
                 <>
                     <div className="user_link_wrapper">
                         <Link to="/my-account" className="user_link">
                             <FontAwesomeIcon icon={faUser} className="user_icon"/>
-                            <span>{toTitleCase(user.full_name)}</span>
+                            <span>{userData
+                                ? toTitleCase(`${userData.first_name} ${userData.last_name}`)
+                                : "Loading..."}</span>
                         </Link>
-                        <button onClick={logout} className="logout_button">
+                        <button className="logout_button" onClick={handleLogout}>
                             Logout
                         </button>
                     </div>
-
                 </>
             ) : (
                 <div className="user_account">

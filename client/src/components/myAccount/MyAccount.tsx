@@ -1,9 +1,13 @@
-import styles from './MyAccount.module.css'
+import styles from './MyAccount.module.css';
+
 
 const MyAccount = () => {
-    return (
-        <h1 className={styles.title}>My account</h1>
-    );
+
+  return (
+    <form className={styles.container}>
+      <h1>My Account</h1>
+    </form>
+  );
 };
 
 export default MyAccount;
