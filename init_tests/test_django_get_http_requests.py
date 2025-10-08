@@ -14,5 +14,6 @@ def test_django_is_installed():
 
 def test_django_is_runed_crome(crome_driver):
     crome_driver.get("http://localhost:8000")
-    assert "Django" in crome_driver.title
+    print('====',crome_driver.title)
+    assert "The install worked successfully! Congratulations!" == crome_driver.title
 
