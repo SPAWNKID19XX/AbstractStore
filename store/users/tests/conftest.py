@@ -1,6 +1,6 @@
 import pytest
-from ..models import CustomUser
+from django.contrib.auth import get_user_model
 
 @pytest.fixture
-def users():
-    return CustomUser()
+def user_model():
+    return get_user_model()
