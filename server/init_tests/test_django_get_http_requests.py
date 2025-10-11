@@ -27,3 +27,18 @@ class TestDjangoInit:
         WebDriverWait(chrome_driver, 10).until(lambda d: d.title != "")
         assert "The install worked successfully! Congratulations!" == chrome_driver.title, f"Title is: {chrome_driver.title}"
 
+    def test_selenium_is_install(self):
+        # Checking if selenium is installed
+        try:
+            # try to import
+            import selenium
+        except ImportError:
+            # information about non installation selenium
+            assert False, "Selenium is not installed"
+
+    def test_simpleJWT_isinstalled(self):
+        try:
+            import rest_framework_simplejwt
+        except ImportError:
+            assert False, "rest_framework_simplejwt is not installed"
+
