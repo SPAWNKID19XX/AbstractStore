@@ -28,6 +28,7 @@ class CustomUserManager(BaseUserManager):
         email = self.normalize_email(email).strip()
         extra_fields.setdefault('is_superuser', True)
         extra_fields.setdefault('is_staff', True)
+        extra_fields.setdefault('is_active', True)
 
         if extra_fields.get('is_superuser') is not True:
             raise ValueError('Superuser is should be is_superuser=True.')
