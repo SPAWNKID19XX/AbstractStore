@@ -6,6 +6,7 @@ coverage==7.10.7
 Django==5.2.7
 django-filter==25.1
 djangorestframework==3.16.1
+djangorestframework_simplejwt==5.5.1
 h11==0.16.0
 idna==3.10
 iniconfig==2.1.0
@@ -14,6 +15,7 @@ packaging==25.0
 pluggy==1.6.0
 psycopg2==2.9.10
 Pygments==2.19.2
+PyJWT==2.10.1
 PySocks==1.7.1
 pytest==8.4.2
 pytest-cov==7.0.0
