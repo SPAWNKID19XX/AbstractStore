@@ -1,4 +1,4 @@
-import pytest
+import pytest, requests
 from django.contrib.auth import get_user_model
 from rest_framework.test import APIClient
 
@@ -12,3 +12,7 @@ def user_model():
 @pytest.fixture
 def apiclient():
     return APIClient()
+
+@pytest.fixture
+def users_response():
+    return requests.get(f"{BASE_URL}users/api/v1/").json()

@@ -12,6 +12,10 @@ class CustomUserViewSet(viewsets.ModelViewSet):
     post=anyone
     put, updatepartial = IsAuthenticated
     '''
+    # todo login,signin permitions for is_superuser,
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserSerializer
     permission_classes = [permissions.AllowAny]
+
+
+    
