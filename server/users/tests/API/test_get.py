@@ -1,9 +1,3 @@
-import pytest
-import requests
-from ..fixtures.user_fixtures import URL_ADMIN_LOGIN, BASE_URL
-from django.contrib.auth import get_user_model
-
-
 class TestGet:
     def test_users_get_endpoint_results_is_returns(self, users_get_response):
         assert 'results' in users_get_response, "result does not exist in returns data"

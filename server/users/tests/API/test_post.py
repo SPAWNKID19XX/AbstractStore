@@ -6,29 +6,29 @@ from django.contrib.auth import get_user_model
 
 class TestPost:
     @pytest.mark.django_db
-    def test_create_user(self, users_login_data):
+    def test_create_user(self, users_test_data):
         response = APIClient().post(
             "/users/api/v1/",
-            data=users_login_data,
+            data=users_test_data,
             format='json'
         )
         assert response.status_code in (200,201)
 
     @pytest.mark.django_db
-    def test_login(self, users_login_data):
+    def test_login(self, users_test_data):
         user_model = get_user_model()
         user = user_model.objects.create_user(
-            email=users_login_data["email"],
-            password=users_login_data["password"],
-            full_name=users_login_data["full_name"]
+            email=users_test_data["email"],
+            password=users_test_data["password"],
+            full_name=users_test_data["full_name"]
         )
 
         client = APIClient()
         r = client.post(
             "/users/api/v1/token/",
             data={
-                "email": users_login_data["email"],
-                "password": users_login_data["password"]
+                "email": users_test_data["email"],
+                "password": users_test_data["password"]
             },
             format="json"
         )
