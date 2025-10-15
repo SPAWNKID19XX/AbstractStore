@@ -67,3 +67,51 @@ class TestUpdate:
             format="json"
         )
         assert response.status_code == 401
+
+    @pytest.mark.django_db
+    def test_distroy_not_logged_user(self, users_test_data):
+        user = get_user_model().objects.create_user(
+            **users_test_data
+        )
+
+        client = APIClient()
+
+        response = client.delete(
+            f"/users/api/v1/{user.id}/",
+            data={
+                "email": user.email,
+                "full_name": "Puted Name",
+                "is_active": True,
+                "is_staff": False,
+                "is_superuser": False
+            },
+            format="json"
+        )
+
+        print(response.json())
+        assert response.status_code == 401
+
+    def test_delete_logged_user(self, auth_client):
+        client, user = auth_client
+
+        response = client.delete(
+            f"/users/api/v1/{user.id}/",
+            data={
+                "email":user.email,
+                "full_name": "Puted Name",
+                "is_active": True,
+                "is_staff": False,
+                "is_superuser": False
+            },
+            format="json"
+        )
+
+        User = get_user_model()
+        user_exists =  User.objects.filter(id=user.id).exists()
+
+        assert response.status_code in (200, 204)
+        assert not user_exists
+
+
+
+

@@ -6,4 +6,11 @@ class IsOwnerOrSuperuser(permissions.BasePermission):
     '''
 
     def has_object_permission(self, request, view, obj):
-        return request.user and (obj == request.user or request.user.is_superuser)
+
+        if not request.user or not request.user.is_authenticated:
+            return False
+
+        if request.user.is_superuser:
+            return True
+
+        return obj == request.user
