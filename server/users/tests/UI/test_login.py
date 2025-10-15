@@ -11,6 +11,4 @@ class TestLoginUI:
 
         lbl_username=driver.find_element('xpath', "//label[@for='id_username']").text
 
-        print('«««««',lbl_username),
-
         assert lbl_username[:-1] == "Email"
