@@ -90,7 +90,6 @@ class TestUpdate:
             format="json"
         )
 
-        print(response.json())
         assert response.status_code == 401
 
     @pytest.mark.django_db
