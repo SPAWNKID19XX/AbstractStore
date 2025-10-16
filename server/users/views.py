@@ -9,12 +9,6 @@ from .serializers import CustomUserSerializer
 
 
 class CustomUserViewSet(viewsets.ModelViewSet):
-    '''
-    todo get=is_superuser
-    post=anyone
-    todo put, patch = IsAuthenticated
-    '''
-    # todo login,signin permitions for is_superuser,
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserSerializer
     permission_classes = [permissions.AllowAny]
