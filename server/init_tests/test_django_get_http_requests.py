@@ -1,9 +1,15 @@
 from selenium import webdriver
 import pytest, requests
+from django.urls import resolve
 from selenium.webdriver.support.ui import WebDriverWait
+from settings.urls import home_test_server_running
 
 
 class TestDjangoInit:
+
+    def test_home_page(self):
+        res = resolve("/")
+        assert res.func == home_test_server_running
 
     def test_django_is_installed(self):
         #Checking if Django is installed

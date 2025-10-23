@@ -4,7 +4,8 @@ import pytest
 @pytest.fixture
 def product_data():
     return {
-        "title": "Test Title"
+        "title": "Test Title",
+        "description": "Description Test"
     }
 
 @pytest.fixture

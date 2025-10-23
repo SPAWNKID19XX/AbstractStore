@@ -6,5 +6,6 @@ class ProductSerializer(serializers.ModelSerializer):
         model = CustomProduct
         fields = [
             "id",
-            "title"
+            "title",
+            "description"
         ]
