@@ -8,6 +8,3 @@ def product_data():
         "description": "Description Test"
     }
 
-@pytest.fixture
-def aaa():
-    return "BumBum"
