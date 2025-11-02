@@ -5,7 +5,7 @@ from .views import WishlistViewSet
 
 router = routers.DefaultRouter()
 
-router.register(r"", WishlistViewSet, basename='wishlist')
+router.register(r"", WishlistViewSet, basename='wishlists')
 
 urlpatterns = [
     path('', include(router.urls)),

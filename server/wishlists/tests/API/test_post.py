@@ -27,20 +27,22 @@ class TestWishlists:
             "/products/api/v1/",
             data=product_data,
             format='json'
-        )
+        ).json()
 
-        product_id = new_product.json()['id']
+        print(new_product)
 
         new_product_to_wishlist = client.post(
-            "/wishlist/api/v1/items/",
+            "/wishlists/api/v1/",
             data={
                 'user': user.id,
-                'product': product_id
+                'product': new_product['id']
             },
             format='json'
         )
 
-        new_wishlist_rec = new_product_to_wishlist
+        assert new_product_to_wishlist.status_code in [200, 201]
+
+        new_wishlist_rec = new_product_to_wishlist.json()
         print(new_wishlist_rec)
 
     #todo check if it will be create second rec for same product in wishlist
