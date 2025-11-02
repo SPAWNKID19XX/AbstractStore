@@ -13,3 +13,6 @@ class Wishlist(models.Model):
         CustomProduct,
         on_delete=models.CASCADE
     )
+
+
+
