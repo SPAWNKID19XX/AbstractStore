@@ -1,8 +1,11 @@
+from time import sleep
+
 import pytest
 from django.db import connection
 from products.models import CustomProduct
 from pytest_django.fixtures import client
 from wishlists.models import Wishlist
+
 
 @pytest.mark.django_db
 class TestWishlists:
@@ -29,8 +32,6 @@ class TestWishlists:
             format='json'
         ).json()
 
-        print(new_product)
-
         new_product_to_wishlist = client.post(
             "/wishlists/api/v1/",
             data={
@@ -41,10 +42,52 @@ class TestWishlists:
         )
 
         assert new_product_to_wishlist.status_code in [200, 201]
+        assert new_product_to_wishlist.json()['user'] == user.id
+        assert new_product_to_wishlist.json()['product'] == new_product['id']
 
-        new_wishlist_rec = new_product_to_wishlist.json()
-        print(new_wishlist_rec)
 
-    #todo check if it will be create second rec for same product in wishlist
+    def test_add_duplicate_product_to_wishlist(self, auth_client, auth_client_superuser ,product_data):
+        '''
+        add a product to wishlist db
+        :param auth_client:
+        :param auth_client_superuser:
+        :param product_data:
+        :return: bool
+        '''
+        client, user = auth_client
+        su_client, su_user = auth_client_superuser
+
+        new_product = su_client.post(
+            "/products/api/v1/",
+            data=product_data,
+            format='json'
+        ).json()
+
+        new_product_to_wishlist = client.post(
+            "/wishlists/api/v1/",
+            data={
+                'user': user.id,
+                'product': new_product['id']
+            },
+            format='json'
+        )
+
+        new_product_to_wishlist2 = client.post(
+            "/wishlists/api/v1/",
+            data={
+                'user': user.id,
+                'product': new_product['id']
+            },
+            format='json'
+        )
+
+
+        #sleep(500)
+
+        assert new_product_to_wishlist2.status_code == 400
+        assert "detail" in new_product_to_wishlist2.json()
+        assert new_product_to_wishlist2.json()["detail"] == f"Rec with user {user.id} and {new_product['id']} already exists"
+
+
 
 
