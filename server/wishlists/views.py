@@ -10,6 +10,11 @@ class WishlistViewSet(viewsets.ModelViewSet):
     serializer_class = WishlistsSerializers
     permission_classes = [permissions.IsAuthenticated]
 
+    def get_queryset(self):
+        return Wishlist.objects.filter(
+            user=self.request.user
+        ).order_by("id")
+
     def perform_create(self, serializer):
         user = self.request.user
         product = serializer.validated_data['product']
