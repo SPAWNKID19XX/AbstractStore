@@ -58,3 +58,37 @@ def auth_client(db, users_test_data):
     client.credentials(HTTP_AUTHORIZATION=f"Bearer {token}")
 
     return client, user
+
+@pytest.fixture
+def auth_client_superuser(db):
+    User = get_user_model()
+    test_su_user = {
+            'email': 'test@superuser.com',
+            'password': 'test123',
+            'full_name': 'Authorized User',
+            'is_active': True,
+            'is_staff': False,
+            'is_superuser': True
+        }
+    user = User.objects.create_user(
+        **test_su_user
+    )
+
+    client = APIClient()
+    response = client.post(
+        "/users/api/v1/token/",
+        data={
+            'email':'test@superuser.com',
+            'password': 'test123',
+        },
+        format="json"
+    )
+
+    assert response.status_code == 200, response.json()
+    token = response.json().get("access")
+
+
+    # добавляем токен в хедер
+    client.credentials(HTTP_AUTHORIZATION=f"Bearer {token}")
+
+    return client, user
