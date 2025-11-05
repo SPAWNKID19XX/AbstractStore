@@ -158,8 +158,5 @@ class TestWishlists:
 
         assert  response.status_code == 200
         for item in response.data['results']:
-            print(item)
             assert item['user'] == user.id
 
-
-        print('>>>>',response.data['results'])

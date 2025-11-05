@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'products.apps.ProductsConfig',
     'wishlists.apps.WishlistsConfig',
+    'reviews.apps.ReviewsConfig'
 ]
 
 MIDDLEWARE = [
